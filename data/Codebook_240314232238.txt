@@ -1,0 +1,2873 @@
+2017 High School Longitudinal Study of 2009 EDAT Extract Codebook
+
+C:\OnlineCodebook\HSLS\Codebook_240314232238.txt
+
+/*****************************************************************************************
+NOTES:                                                                                  
+   (1) Full sample weights and/or replicate weights are added automatically.
+   (2) Identification numbers are added automatically.
+*****************************************************************************************/
+
+
+
+File:       SCHOOL
+Name:       W1SCHOOL
+Position:   17
+Length:     13
+Label:      W1 Base year school analytic weight
+
+Description:
+School weight used in school-level analysis of data from all base year responding schools. See section 6.3 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328).
+
+                                                                      Frequency                Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                         1.03              926.08                 944               24.39               49.41 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+2017 High School Longitudinal Study of 2009 EDAT Extract Codebook
+
+C:\OnlineCodebook\HSLS\Codebook_240314232238.txt
+
+/*****************************************************************************************
+NOTES:                                                                                  
+   (1) Full sample weights and/or replicate weights are added automatically.
+   (2) Identification numbers are added automatically.
+*****************************************************************************************/
+
+
+
+File:       STUDENT
+Name:       W1STUDENT
+Position:   54
+Length:     12
+Label:      W1 Base year student analytic weight
+
+Description:
+Student weight used in analysis of data from all base year responding students. See section 6.4 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328). W1STUDENT replicates are available as W1STUDENT001-W1STUDENT200.
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       W1PARENT
+Position:   66
+Length:     12
+Label:      W1 Base year student home analytic weight
+
+Description:
+Weight used to conduct analyses that include contextual data on the student's home collected in the parent questionnaire. See section 6.5.3 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328). W1PARENT replicates are available as W1PARENT001-W1PARENT200 in the supplemental replicate weights file psstudent_brr_ruf.dat.
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       W1MATHTCH
+Position:   78
+Length:     12
+Label:      W1 Base year math-course enrollee analytic weight
+
+Description:
+Weight used to conduct analyses on the population of 9th-grade students with a mathematics course using student contextual data collected in the mathematics teacher questionnaire. See section 6.5.2 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328). W1MATHTCH replicates are available as W1MATHTCH001-W1MATHTCH200 in the supplemental replicate weights file psstudent_brr_ruf.dat.
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       W1SCITCH
+Position:   90
+Length:     12
+Label:      W1 Base year science-course enrollee analytic weight
+
+Description:
+Weight used to conduct analyses on the population of 9th-grade students with a science course using student contextual data collected in the science teacher questionnaire. See section 6.5.2 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328). W1SCITCH replicates are available as W1SCITCH001-W1SCITCH200 in the supplemental replicate weights file psstudent_brr_ruf.dat.
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       W2STUDENT
+Position:   102
+Length:     12
+Label:      W2 First follow-up student analytic weight
+
+Description:
+Student weight used in analysis of data from all first follow-up responding students. See section 6.3 of the HSLS:09 First Follow-up Data File Documentation (NCES 2014-361). W2STUDENT replicates are available as W2STUDENT001-W2STUDENT200.
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       W2W1STU
+Position:   114
+Length:     12
+Label:      W2 First follow-up student longitudinal weight
+
+Description:
+Student weight used in analysis of data from base year and first follow-up responding students. See section 6.4 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328). W2W1STU replicates are available as W2W1STU001-W2W1STU200 in the supplemental replicate weights file psstudent_brr_ruf.dat.
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       W2PARENT
+Position:   126
+Length:     12
+Label:      W2 First follow-up student household analytic weight
+
+Description:
+Weight used to conduct analyses that include contextual data on the student's home collected in the first follow-up parent questionnaire. See section 6.4 of the HSLS:09 First Follow-up Data File Documentation (NCES 2014-361). W2PARENT replicates are available as W2PARENT001-W2PARENT200 in the supplemental replicate weights file psstudent_brr_ruf.dat.
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       W2W1PAR
+Position:   138
+Length:     12
+Label:      W2 First follow-up student household longitudinal weight
+
+Description:
+Weight used to conduct analyses that include contextual data on the student's home collected in the base year and first follow-up responding parent questionnaires. See section 6.4 of the HSLS:09 First Follow-up Data File Documentation (NCES 2014-361). W2W1PAR replicates are available as W2W1PAR001-W2W1PAR200 in the supplemental replicate weights file psstudent_brr_ruf.dat.
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TXMTH
+Position:   420
+Length:     7
+Label:      X1 Mathematics theta score
+
+Description:
+The math theta score represents the student's ability level on a continuous scale.   The theta score provides a norm-referenced measurement of achievement, that is, an estimate of achievement relative to the population (fall 2009 9th graders) as a whole. It provides information on status compared to peers (as distinguished from the IRT-estimated scale score which represents status with respect to achievement on a particular criterion set of test items).  When the score is not available, X1TXMTH1-5 are created as the multiple imputation values for X1TXMTH.  X1TXMTH is the mean of X1TXMTH1-5.  The  standard error of measurement for the theta score is X1TXMSEM. The standardized form of the mathematics theta score is X1TXMTSCOR. See Chapter 2 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328) for more information on the derivation of the math theta score.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000              3.0283             -0.6693              2.4536 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TXMSEM
+Position:   427
+Length:     7
+Label:      X1 Mathematics standard error of measurement for raw theta score
+
+Description:
+The standard error of measurement (SEM) for the theta score indicates the precision in the ability estimate. It is calculated from the sum of item information functions for each item answered by each student. Unlike the classical standard error of measurement, which is a constant, the IRT standard error varies across the scale-score continuum. It is typically smaller for students whose theta score falls toward the center of the distribution because more students answered the items with average difficulty. However, students whose theta scores fall at the extremes of the distribution tend to have a higher SEM because their scores are based on items answered by fewer students overall.  When the score is not available, X1TXMSEM1-5 are created as the multiple imputation values for X1TXMSEM.  X1TXMSEM is he mean of X1TXMSEM1-5. See Chapter 2 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328) for more information on the derivation of the math theta SEM.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000              0.6151             -0.4591              2.3371 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TXMSCR
+Position:   434
+Length:     7
+Label:      X1 Mathematics IRT-estimated number right score (of 72 base year items)
+
+Description:
+The math IRT-estimated scale score is a criterion-referenced measure of achievement. The criterion is the set of skills defined by the HSLS:09 framework and represented by the 72 items in the HSLS:09 math item pool. The estimated scale score for math is an estimate of the number of items students would have answered correctly had they responded to all 72 items in the item pool. The ability estimates and item parameters derived from the IRT calibration can be used to calculate each student's probability of a correct answer for each of the items in the pool. These probabilities are summed to produce the IRT-estimated number-correct scale score. See Chapter 2 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328) for more information on the derivation of the math scale score score.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000             69.9317             35.9645             17.7911 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TXMTSCOR
+Position:   441
+Length:     7
+Label:      X1 Mathematics standardized theta score
+
+Description:
+The math standardized T score provides a norm-referenced measurement of achievement, that is, an estimate of achievement relative to the population (fall 2009 9th graders) as a whole. It provides information on status compared to peers  (as distinguished from the IRT-estimated percent-correct score which represents status with respect to achievement on a particular criterion set of test items). The standardized T score is a transformation of the IRT theta (ability) estimate, rescaled to a mean of 50 and standard deviation of 10. An advantage of the standardized score over the raw theta score is that it facilitates comparisons in standard deviation units. See Chapter 2 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328) for more information on the derivation of the math T score.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000             82.1876             45.9312             19.2860 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TXMQUINT
+Position:   448
+Length:     2
+Label:      X1 Mathematics quintile score
+
+Description:
+The math quintile score is a norm-referenced measure of achievement. The quintile score divides the weighted (population estimate) achievement distributions into five equal groups, based on math score (X1TXMTSCOR). Quintile 1 corresponds to the lowest-achieving one-fifth of the population, quintile 5 the highest. To determine the quintile cut-points, the weighted distribution of the standardized scores was divided at the 20th, 40th, 60th, and 80th percentiles. Cut points were matched to unrounded standardized scores. See Chapter 2 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328) for more information on the derivation of the math quintile score.
+
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+1                   First (lowest) quintile                                 3,666               15.60 
+2                   Second quintile                                         3,904               16.61 
+3                   Third (middle) quintile                                 4,323               18.39 
+4                   Fouth quintile                                          4,647               19.77 
+5                   Fifth (highest) quintile                                4,904               20.87 
+-8                  Unit non-response                                       2,059                8.76 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TXMPROF1
+Position:   450
+Length:     7
+Label:      X1 Mathematics proficiency probability score: level 1
+
+Description:
+The math proficiency probability scores are criterion-referenced and are based on clusters of items that mark five levels on the mathematics scale developed in HSLS:09. The levels are hierarchical in the sense that mastery of a higher level typically implies proficiency at the lower levels. The HSLS:09 proficiency probabilities were computed using IRT-estimated item parameters. Each proficiency probability represents the probability that a student would pass a given proficiency level. Clusters of four items were identified that marked mathematics level 1: algebraic expressions. Students able to answer questions like these have an understanding of algebraic basics including evaluating simple algebraic expressions and translating between verbal and symbolic representations of expressions. See Chapter 2 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328) for more information on the derivation of the math proficiency probability score.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000              1.0000              0.0986              2.5211 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TXMPROF2
+Position:   457
+Length:     7
+Label:      X1 Mathematics proficiency probability score: level 2
+
+Description:
+The math proficiency probability scores are criterion-referenced and are based on clusters of items that mark five levels on the mathematics scale developed in HSLS:09. The levels are hierarchical in the sense that mastery of a higher level typically implies proficiency at the lower levels. The HSLS:09 proficiency probabilities were computed using IRT-estimated item parameters. Each proficiency probability represents the probability that a student would pass a given proficiency level. Clusters of four items were identified that marked mathematics level 2: multiplicative and proportional thinking. Students able to answer questions like these have an understanding of proportions and multiplicative situations and can solve proportional situation word problems, find the percent of a number, and identify equivalent algebraic expressions for multiplicative situations. See Chapter 2 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328) for more information on the derivation of the math proficiency probability scores.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000              1.0000             -0.1269              2.4621 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TXMPROF3
+Position:   464
+Length:     7
+Label:      X1 Mathematics proficiency probability score: level 3
+
+Description:
+The math proficiency probability scores are criterion-referenced and are based on clusters of items that mark five levels on the mathematics scale developed in HSLS:09. The levels are hierarchical in the sense that mastery of a higher level typically implies proficiency at the lower levels. The HSLS:09 proficiency probabilities were computed using IRT-estimated item parameters. Each proficiency probability represents the probability that a student would pass a given proficiency level. Clusters of four items were identified that marked mathematics level 3: algebraic equivalents. Students able to answer questions like these have an understanding of algebraic equivalents and can link equivalent tabular and symbolic representations of linear equations, identify equivalent lines and find the sum of variable expressions. See Chapter 2 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328) for more information on the derivation of the math proficiency probability scores.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000              1.0000             -0.2900              2.4139 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TXMPROF4
+Position:   471
+Length:     7
+Label:      X1 Mathematics proficiency probability score: level 4
+
+Description:
+The math proficiency probability scores are criterion-referenced and are based on clusters of items that mark five levels on the mathematics scale developed in HSLS:09. The levels are hierarchical in the sense that mastery of a higher level typically implies proficiency at the lower levels. The HSLS:09 proficiency probabilities were computed using IRT-estimated item parameters. Each proficiency probability represents the probability that a student would pass a given proficiency level. Clusters of four items were identified that marked mathematics level 4: systems of equations. Students able to answer questions like these have an understanding of systems of linear equations and can solve such systems algebraically and graphically and characterize the lines (parallel, intersecting, collinear) represented by a system of linear equations. See Chapter 2 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328) for more information on the derivation of the math proficiency probability scores.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000              0.9982             -0.5140              2.3321 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TXMPROF5
+Position:   478
+Length:     7
+Label:      X1 Mathematics proficiency probability score: level 5
+
+Description:
+The math proficiency probability scores are criterion-referenced and are based on clusters of items that mark five levels on the mathematics scale developed in HSLS:09. The levels are hierarchical in the sense that mastery of a higher level typically implies proficiency at the lower levels. The HSLS:09 proficiency probabilities were computed using IRT-estimated item parameters. Each proficiency probability represents the probability that a student would pass a given proficiency level. Clusters of four items were identified that marked mathematics level 5: linear functions. Students able to answer questions like these have an understanding of linear functions and can find and use slopes and intercepts of lines, and use functional notation. See Chapter 2 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328) for more information on the derivation of the math proficiency probability scores.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000              0.9796             -0.6082              2.2936 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1MACC
+Position:   485
+Length:     2
+Label:      X1 Mathematics assessment accommodations
+
+Description:
+Whether accommodation(s) were provided for assessment administration to students with special needs - either identified in an IEP or specified by a school official at the time of test administration: no accommodation needed; extra time for test or other special test accommodations needed (e.g., use of calculator, tests read to student).  X1MACC was set to 1 if special test accommodations and/or extra time were needed.  Those taking a test but not requiring test accommodations had X1MACC=0.  X1MACC=-8 for those that did not take the test.
+
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No                                                     20,314               86.43 
+1                   Yes                                                       467                1.99 
+-8                  Unit non-response                                       2,722               11.58 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1MTHID
+Position:   605
+Length:     5
+Label:      X1 Scale of student's mathematics identity
+
+Description:
+This variable is a scale of the sample member's math identity.  Sample members who tend to agree with the statements "You see yourself as a math person" and/or "Others see me as a math person" will have higher values for X1MTHID.  This variable was created through principal components factor analysis (weighted by W1STUDENT) and standardized to a mean of 0 and standard deviation of 1. The inputs to this scale were S1MPERSON1 and S1MPERSON2. Only respondents who provided a full set of responses were assigned a scale value.  The coefficient of reliability (alpha) for the scale is .65 or higher. For more information on this scale score, please see chapter 5 of the Base-Year Data File Documentation (NCES 2011-328).
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                1.76               -0.78                2.63 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1MTHUTI
+Position:   610
+Length:     5
+Label:      X1 Scale of student's mathematics utility
+
+Description:
+This variable is a scale of the sample member's perception of the utility of mathematics; higher values represent perceptions of greater mathematics utility.  Variable was created through principal components factor analysis (weighted by W1STUDENT) and standardized to a mean of 0 and standard deviation of 1. The inputs to this scale were S1MUSELIFE, S1MUSECLG, and S1MUSEJOB.  Only respondents who provided a full set of responses were assigned a scale value. If the student indicated that he or she was not taking a fall math class, this variable is set to -7.  The coefficient of reliability (alpha) for the scale is .65 or higher. For more information on this scale score, please see chapter 5 of the Base-Year Data File Documentation (NCES 2011-328).
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                1.31               -1.55                3.20 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1MTHEFF
+Position:   615
+Length:     5
+Label:      X1 Scale of student's mathematics self-efficacy
+
+Description:
+This variable is a scale of the sample member's math self-efficacy; higher X1MTHEFF values represent higher math self-efficacy.  Variable was created through principal components factor analysis (weighted by W1STUDENT) and standardized to a mean of 0 and standard deviation of 1. The inputs to this scale were S1MTESTS, S1MTEXTBOOK, S1MSKILLS, and S1MASSEXCL. Only respondents who provided a full set of responses were assigned a scale value. If the student indicated that he or she was not taking a fall math class, this variable is set to -7. The coefficient of reliability (alpha) for the scale is .65 or higher. For more information on this scale score, please see chapter 5 of the Base-Year Data File Documentation (NCES 2011-328).
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                1.62               -1.52                3.24 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1MTHINT
+Position:   620
+Length:     5
+Label:      X1 Scale of student's interest in fall 2009 math course
+
+Description:
+This variable is a scale of the sample member's interest in their base-year math course; higher values represent greater interest in their base-year math course.  Variable was created through principal components factor analysis (weighted by W1STUDENT) and standardized to a mean of 0 and standard deviation of 1. The inputs to this scale were S1MENJOYING, S1MWASTE, S1MBORING, S1FAVSUBJ, S1LEASTSUBJ, and S1MENJOYS. Only respondents who provided a full set of responses were assigned a scale value. If the student indicated that he or she was not taking a fall math class, this variable is set to -7.  The coefficient of reliability (alpha) for the scale is .65 or higher. For more information on this scale score, please see chapter 5 of the Base-Year Data File Documentation (NCES 2011-328).
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                2.08               -1.66                3.35 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TESTSTAT
+Position:   685
+Length:     2
+Label:      X1 Student mathematics assessment status 
+
+Description:
+X1TESTSTAT indicates whether base-year HSLS mathematics assessment data are available on the data file for any given sample member.
+
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+1                   BY assessment respondent                               20,781               88.42 
+2                   BY assessment nonrespondent (scores impu                  663                2.82 
+                    ted)
+8                   BY student survey nonrespondent (no asse                2,059                8.76 
+                    ssment data)
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TESTDATE
+Position:   687
+Length:     6
+Label:      X1 Student mathematics assessment date (YYYYMM)
+
+Description:
+Month and year the sample member completed the base-year HSLS mathematics assessment.
+
+
+Dates recoded on the public use file as follows: 200909 as 200910, 200912 as 200911, and after 2009 as 201001.
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TMQSTAT
+Position:   713
+Length:     2
+Label:      X1 Math teacher questionnaire status
+
+Description:
+X1TMQSTAT indicates whether a complete base year math teacher interview is available on the data file; X1TMQSTAT also indicates the mode of the base year math teacher interview, and whether the math teacher responded to a full-length or abbreviated interview. For an explanation of a responding case, please see chapter 2 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328).
+
+
+Various completion modes recoded as respondent on the public use file.
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+1                   Respondent                                             17,070               72.63 
+8                   Non-respondent                                          5,466               23.26 
+9                   Student has no fall 2009 math class (sur                  967                4.11 
+                    vey component not applicable)
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TMLINK
+Position:   721
+Length:     2
+Label:      X1 Student to math teacher link descriptor
+
+Description:
+X1TMLINK characterizes the linkage between the student and the base-year math teacher associated with that student on the HSLS data file. The values assigned are a product of comparison between student-provided teacher information and the teacher information provided by the school. Values of 1 through 3 represent cases where the math teacher associated with the student is a respondent, with values of 1 representing the ‘strongest' links (due to consistency between student- and school-provided information), and values of 2, and 3 representing links considered less strong due to inconsistent and/or missing information. Values of 8 are assigned in cases where a link could not be established between the student and a teacher because the teacher did not respond to the questionnaire. Values of 9 are assigned in cases where the student's school indicates the student is not enrolled in a math class and the student either indicates they are not enrolled in a math class or their class information is missing. For more information about teacher linkages, please refer to chapter 5 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328).
+
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+1                   Teacher respondent, school and student-p               13,350               56.80 
+                    rovided information consistent
+2                   Teacher respondent, student-provided inf                  275                1.17 
+                    ormation selected
+3                   Teacher respondent, school-provided info                3,445               14.66 
+                    rmation selected
+8                   Teacher nonrespondent                                   5,466               23.26 
+9                   Student not taking fall 2009 math course                  967                4.11 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TMCRSLINK
+Position:   723
+Length:     2
+Label:      X1 Student to math teacher course-level link descriptor
+
+Description:
+X1TMCRSLINK characterizes the linkage between the student and the course-level data provided by the math teacher associated with that student on the HSLS data file. Values of 1 are assigned in cases where X1TMLINK=1 and the student confirmed enrollment in the associated course and could be linked using school records data to a course reported in the teacher questionnaire.  Values of 2 are assigned in cases where X1TMLINK=1 or 3 and the student did not confirm enrollment in the associated course but could be linked using school records data to a course reported in the teacher questionnaire.  Values of 8 are assigned where X1TMLINK=1, 2, 3, or 8 and either the teacher did not provide any course-level information for the school-specified course associated with the given student or the teacher was a nonrespondent. Values of 9 are assigned where X1TMLINK=9. For more information about teacher course linkages, please refer to chapter 5 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328).
+
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+1                   Teacher reported on school-provided cour                8,842               37.62 
+                    se, student confirmed enrollment
+2                   Teacher reported on school-provided cour                4,524               19.25 
+                    se, student did not confirm enrollment
+8                   No course level information linked to st                9,170               39.02 
+                    udent
+9                   Student not taking fall 2009 math course                  967                4.11 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TMRACE
+Position:   725
+Length:     2
+Label:      X1 Math teacher's race/ethnicity-composite
+
+Description:
+X1TMRACE characterizes the race/ethnicity of the sample member's math teacher by summarizing the following math teacher questionnaire variables:  M1HISP, M1WHITE, M1BLACK, M1ASIAN, M1PACISLE, and M1AMINDIAN. If the student indicated that he or she was not taking a fall math class, this variable is set to -7.
+
+
+"Amer. Indian/Alaska Native, non-Hispanic" and "Native Hawaiian/Pacific Islander, non-Hispanic" recoded as "Other, non-Hispanic" on the public use file.
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+2                   Asian, non-Hispanic                                       408                1.74 
+3                   Black/African-American, non-Hispanic                      591                2.51 
+4                   Hispanic, no race specified                                60                0.26 
+5                   Hispanic, race specified                                  585                2.49 
+6                   More than one race, non-Hispanic                          238                1.01 
+8                   White, non-Hispanic                                    15,104               64.26 
+9                   Other, non-Hispanic                                        38                0.16 
+-9                  Missing                                                    46                0.20 
+-8                  Unit non-response                                       5,466               23.26 
+-7                  Item legitimate skip/NA                                   967                4.11 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TMCERT
+Position:   727
+Length:     2
+Label:      X1 Math teacher's math teaching certification
+
+Description:
+Characterizes the math teacher's base year math teaching certification status by grade level and type of certification.  "Probationary certifications" refer to certificates issued after satisfying all requirements except the completion of a probationary teaching period; "emergency/temporary/waiver certifications" refer to either: certificates that require some additional coursework or passing a test, or certificates issued to persons who must complete a certification program in order to continue teaching (see also M1CERTTYPE). If the student indicated that he or she was not taking a fall math class, this variable is set to -7.
+
+
+High school and middle school not distinguished for probationary certification and emergency/temporary/waiver certification on the public use file.
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No math teaching certification                          1,304                5.55 
+1                   Regular certification; includes high sch               13,381               56.93 
+                    ool
+2                   Regular certification; elementary or mid                  176                0.75 
+                    dle school only
+3                   Probationary certification; elem thru HS                  766                3.26 
+5                   Emergency/temporary/waiver certification                1,374                5.85 
+                    ; elem thru HS
+-9                  Missing                                                    69                0.29 
+-8                  Unit non-response                                       5,466               23.26 
+-7                  Item legitimate skip/NA                                   967                4.11 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TMCOMM
+Position:   729
+Length:     5
+Label:      X1 Scale of math teacher's perceptions of math professional learning community
+
+Description:
+This variable is a scale of the base year math teacher's perceptions of a professional learning community among math teachers at his/her school; higher X1TMCOMM values represent perceptions of a greater professional learning community. Variable was created through principal components factor analysis (weighted by W1MATHTCH) and standardized to a mean of 0 and standard deviation of 1. The inputs to this scale were M1SHRIDEAS, M1WORKSHOP, M1SHRSTWRK, M1SHRLESSONS, M1SHRBELIEFS, M1SHRMTHDS, M1SHRELL, M1SHRAPPRCH, M1SHRCONTENT, M1EFFECTIVE, M1MENTOR, and M1CHAIR. Only respondents who provided a full set of responses were assigned a scale value. If the student indicated that he or she was not taking a fall math class, this variable is set to -7. The coefficient of reliability (alpha) for the scale is .65 or higher. For more information, please see chapter 5 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328).
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                1.70               -3.12                4.08 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TMEFF
+Position:   734
+Length:     5
+Label:      X1 Scale of math teacher's self-efficacy
+
+Description:
+This variable is a scale of the base year math teacher's self-efficacy; higher values represent greater self-efficacy. Variable was created through principal components factor analysis (weighted by W1MATHTCH) and standardized to a mean of 0 and standard deviation of 1. The inputs to this scale were M1FAMILY, M1DISCIPLINE, M1STUACHIEVE, M1PARENT, M1RETAIN, M1REDIRECT, M1GETTHRU, and M1HOMEFX. Only respondents who provided a full set of responses were assigned a scale value. If the student indicated that he or she was not taking a fall math class, this variable is set to -7.  The coefficient of reliability (alpha) for the scale is .65 or higher. For more information, please see chapter 5 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328).
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                3.01               -2.90                4.04 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TMEXP
+Position:   739
+Length:     5
+Label:      X1 Scale of math teacher's perceptions of math teachers' expectations
+
+Description:
+This variable is a scale of the base year math teacher's perceptions of teacher expectations at his/her school; higher X1TMEXP values represent higher perceived expectations. Variable was created through components principal components factor analysis (weighted by W1MATHTCH) and standardized to a mean of 0 and standard deviation of 1. The inputs to this scale were M1TEACHING, M1LEARNING, M1BELIEVE, M1CLEARGOALS, M1GIVEUP, M1CARE, M1EXPECT, and M1WORKHARD. Only respondents who provided a full set of responses were assigned a scale value. If the student indicated that he or she was not taking a fall math class, this variable is set to -7.  The coefficient of reliability (alpha) for the scale is .65 or higher.  For more information, please see chapter 5 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328).
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                1.29               -2.70                3.99 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TMPRINC
+Position:   744
+Length:     5
+Label:      X1 Scale of math teacher's perceptions of principal support
+
+Description:
+This variable is a scale of the base year math teacher's perceptions of support from his/her school's principal; higher values represent greater perceived support. Variable was created through principal components factor analysis (weighted by W1MATHTCH) and standardized to a mean of 0 and standard deviation of 1. The inputs to this scale were M1PRESSURES, M1POORJOBRES, M1PSETSPRIO, M1PSCHVISION, M1PCOMEXP, M1PINNOVATE, and M1PCONSULTS. Only respondents who provided a full set of responses were assigned a scale value. If the student indicated that he or she was not taking a fall math class, this variable is set to -7.  The coefficient of reliability (alpha) for the scale is .65 or higher. For more information, please see chapter 5 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328).
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                1.48               -2.91                4.02 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X1TMRESP
+Position:   749
+Length:     5
+Label:      X1 Scale of math teacher's perceptions of collective responsibility
+
+Description:
+This variable is a scale of the base year math teacher's perceptions of collective responsibility among his/her school's teachers; higher values represent greater perceived collective responsibility. Variable was created through principal components factor analysis (weighted by W1MATHTCH) and standardized to a mean of 0 and standard deviation of 1. The inputs to this scale were M1TSCHDISC, M1TIMPROVE, M1TSETSTDS, M1TSELFDEV, M1THELPBEST, M1TALLLEARN, or M1TFAIL. Only respondents who provided a full set of responses were assigned a scale value. If the student indicated that he or she was not taking a fall math class, this variable is set to -7.  The coefficient of reliability (alpha) for the scale is .65 or higher. For more information, please see chapter 5 of the HSLS:09 Base-Year Data File Documentation (NCES 2011-328).
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                1.98               -2.88                4.04 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2TXMTH
+Position:   905
+Length:     7
+Label:      X2 Mathematics theta score
+
+Description:
+The math theta score represents the student's ability level on a continuous scale.  The theta score provides a norm-referenced measurement of achievement, that is, an estimate of achievement relative to the population (fall 2009 9th graders) as a whole. It provides information on status compared to peers (as distinguished from the IRT-estimated scale score which represents status with respect to achievement on a particular criterion set of test items). When the score is not available, X2TXMTH1-5 are created as the multiple imputation values for X2TXMTH. X2TXMTH is the mean of X2TXMTH1-5. The standard error of measurement for the theta score is X2TXMSEM. The standardized form of the mathematics theta score is X2TXMTSCOR. See Chapter 2 of the HSLS:09 F1 Data File Documentation (NCES 2014-361) for more information on the derivation of the math theta score.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000              4.5046             -0.3623              3.0663 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2TXMSEM
+Position:   912
+Length:     7
+Label:      X2 Mathematics standard error of measurement for raw theta score
+
+Description:
+The standard error of measurement (SEM) for the theta score indicates the precision in the ability estimate. It is calculated from the sum of item information functions for each item answered by each student. Unlike the classical standard error of measurement, which is a constant, the IRT standard error varies across the scale-score continuum. It is typically smaller for students whose theta score falls toward the center of the distribution because more students answered the items with average difficulty. However, students whose theta scores fall at the extremes of the distribution tend to have a higher SEM because their scores are based on items answered by fewer students overall. When the score is not available, X2TXMSEM1-5 are created as the multiple imputation values for X2TXMSEM. X2TXMSEM is he mean of X2TXMSEM1-5. See Chapter 2 of the HSLS:09 F1 Data File Documentation (NCES 2014-361) for more information on the derivation of the math theta SEM.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000              0.7554             -0.7009              2.7444 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2TXMSCR
+Position:   919
+Length:     7
+Label:      X2 Mathematics IRT-estimated number right score (of ## first follow-up items)
+
+Description:
+The math IRT-estimated number correct is a criterion-referenced measure at the time of the First Follow-up assessment. The criterion is the set of skills defined by both the HSLS:09 Base Year and First Follow-up framework and represented by the 118 items used to score HSLS:09 First Follow-up math assessment. The estimated number correct for math is an estimate of the number of items students would have answered correctly had they responded to all 118 items in the item pool. The ability estimates (Thetas) from the First Follow-up and item parameters derived from the IRT calibration were used to calculate each student's probability of a correct answer for each of the items in the pool. These probabilities are summed to produce the IRT-estimated number-correct scale score. See Chapter 2 of the HSLS:09 F1 Data File Documentation (NCES 2014-361) for more information on the derivation of the math estimate number correct.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000            115.1000             57.9116             30.6156 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2X1TXMSCR
+Position:   926
+Length:     7
+Label:      X2 Mathematics IRT-estimated number right score at time of base year (of 118 first follow-up items)
+
+Description:
+The math IRT-estimated number correct is a criterion-referenced measure of achievement at the time of the Base Year assessment. The criterion is the set of skills defined by both the HSLS:09 Base Year and First Follow-up framework and represented by the 118 items used to score the HSLS:09 First Follow-up mathematics assessment. The estimated number correct for math is an estimate of the number of items students would have answered correctly had they responded to all 118 items in the item pool. The ability estimates (Thetas) from the Base Year and item parameters derived from the IRT calibration were used to calculate each student's probability of a correct answer for each of the items in the pool. These probabilities are summed to produce the IRT-estimated number-correct scale score. See Chapter 2 of the HSLS:09 First Follow-up Data File Documentation (NCES 2014-361) for more information on the derivation of the math estimated number correct.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -9.0000            103.7880             43.2874             30.0057 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2TXMTSCOR
+Position:   933
+Length:     7
+Label:      X2 Mathematics standardized theta score
+
+Description:
+The math standardized T score provides a norm-referenced measurement of achievement, that is, an estimate of achievement relative to the population (fall 2009 9th graders) as a whole. It provides information on status compared to peers  (as distinguished from the IRT-estimated percent-correct score which represents status with respect to achievement on a particular criterion set of test items). The standardized T score is a transformation of the IRT theta (ability) estimate, rescaled to a mean of 50 and standard deviation of 10. An advantage of the standardized score over the raw theta score is that it facilitates comparisons in standard deviation units. See Chapter 2 of the HSLS:09 F1 Data File Documentation (NCES 2014-361) for more information on the derivation of the math T score.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000             84.9051             44.1365             21.7789 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2TXMQUINT
+Position:   940
+Length:     2
+Label:      X2 Mathematics quintile score
+
+Description:
+The math quintile score is a norm-referenced measure of achievement. The quintile score divides the weighted (population estimate) achievement distributions into five equal groups, based on math score (X2TXMTSCOR). Quintile 1 corresponds to the lowest-achieving one-fifth of the population, quintile 5 the highest. To determine the quintile cut-points, the weighted distribution of the standardized scores was divided at the 20th, 40th, 60th, and 80th percentiles. See Chapter 2 of the HSLS:09 F1 Data File Documentation (NCES 2014-361) for more information on the derivation of the math quintile score.
+
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+1                   First (lowest) quintile                                 3,359               14.29 
+2                   Second quintile                                         3,706               15.77 
+3                   Third (middle) quintile                                 3,975               16.91 
+4                   Fouth quintile                                          4,491               19.11 
+5                   Fifth (highest) quintile                                5,063               21.54 
+-8                  Unit non-response                                       2,909               12.38 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2TXMPROF1
+Position:   942
+Length:     7
+Label:      X2 Mathematics proficiency probability score: level 1
+
+Description:
+The math proficiency probability scores are criterion-referenced and are based on clusters of items that mark seven levels on the mathematics scale developed in the HSLS:09 first follow-up. The levels are hierarchical in the sense that mastery of a higher level typically implies proficiency at the lower levels. The HSLS:09 first follow-up proficiency probabilities were computed using IRT-estimated item parameters. Each proficiency probability represents the probability that a student would pass a given proficiency level. Clusters of four items were identified that marked mathematics level 1: algebraic expressions. Students able to answer questions such as these have an understanding of algebraic basics including evaluating simple algebraic expressions and translating between verbal and symbolic representations of expressions. See Chapter 2 of the HSLS:09 F1 Data File Documentation (NCES 2014-361) for more information on the derivation of the math proficiency probability score.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000              1.0000             -0.1689              2.9478 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2TXMPROF2
+Position:   949
+Length:     7
+Label:      X2 Mathematics proficiency probability score: level 2
+
+Description:
+The math proficiency probability scores are criterion-referenced and are based on clusters of items that mark seven levels on the mathematics scale developed in the HSLS:09 first follow-up. The levels are hierarchical in the sense that mastery of a higher level typically implies proficiency at the lower levels. The HSLS:09 first follow-up proficiency probabilities were computed using IRT-estimated item parameters. Each proficiency probability represents the probability that a student would pass a given proficiency level. Clusters of four items were identified that marked mathematics level 2: multiplicative and proportional thinking. Students able to answer questions such as these have an understanding of proportions and multiplicative situations and can solve proportional situation word problems, find the percent of a number, and identify equivalent algebraic expressions for multiplicative situations. See Chapter 2 of the HSLS:09 F1 Data File Documentation (NCES 2014-361) for more information on the derivation of the math proficiency probability scores.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000              1.0000             -0.3021              2.9082 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2TXMPROF3
+Position:   956
+Length:     7
+Label:      X2 Mathematics proficiency probability score: level 3
+
+Description:
+The math proficiency probability scores are criterion-referenced and are based on clusters of items that mark seven levels on the mathematics scale developed in the HSLS:09 first follow-up. The levels are hierarchical in the sense that mastery of a higher level typically implies proficiency at the lower levels. The HSLS:09 first follow-up proficiency probabilities were computed using IRT-estimated item parameters. Each proficiency probability represents the probability that a student would pass a given proficiency level. Clusters of four items were identified that marked mathematics level 3: algebraic equivalents. Students able to answer questions such as these have an understanding of algebraic equivalents and can link equivalent tabular and symbolic representations of linear equations, identify equivalent lines and find the sum of variable expressions. See Chapter 2 of the HSLS:09 F1 Data File Documentation (NCES 2014-361) for more information on the derivation of the math proficiency probability scores.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000              1.0000             -0.3884              2.8804 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2TXMPROF4
+Position:   963
+Length:     7
+Label:      X2 Mathematics proficiency probability score: level 4
+
+Description:
+The math proficiency probability scores are criterion-referenced and are based on clusters of items that mark seven levels on the mathematics scale developed in the HSLS:09 first follow-up. The levels are hierarchical in the sense that mastery of a higher level typically implies proficiency at the lower levels. The HSLS:09 first follow-up proficiency probabilities were computed using IRT-estimated item parameters. Each proficiency probability represents the probability that a student would pass a given proficiency level. Clusters of four items were identified that marked mathematics level 4: systems of equations. Students able to answer questions such as these have an understanding of systems of linear equations and can solve such systems algebraically and graphically and characterize the lines (parallel, intersecting, collinear) represented by a system of linear equations. See Chapter 2 of the HSLS:09 F1 Data File Documentation (NCES 2014-361) for more information on the derivation of the math proficiency probability scores.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000              1.0000             -0.6990              2.7640 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2TXMPROF5
+Position:   970
+Length:     7
+Label:      X2 Mathematics proficiency probability score: level 5
+
+Description:
+The math proficiency probability scores are criterion-referenced and are based on clusters of items that mark seven levels on the mathematics scale developed in the HSLS:09 first follow-up. The levels are hierarchical in the sense that mastery of a higher level typically implies proficiency at the lower levels. The HSLS:09 first follow-up proficiency probabilities were computed using IRT-estimated item parameters. Each proficiency probability represents the probability that a student would pass a given proficiency level. Clusters of four items were identified that marked mathematics level 5: linear functions. Students able to answer questions such as these have an understanding of linear functions and can find and use slopes and intercepts of lines, and use functional notation. See Chapter 2 of the HSLS:09 F1 Data File Documentation (NCES 2014-361) for more information on the derivation of the math proficiency probability scores.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000              1.0000             -0.7909              2.7272 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2TXMPROF6
+Position:   977
+Length:     7
+Label:      X2 Mathematics proficiency probability score: level 6 ** New Level **
+
+Description:
+The math proficiency probability scores are criterion-referenced and are based on clusters of items that mark seven levels on the mathematics scale developed in the HSLS:09 first follow-up. The levels are hierarchical in the sense that mastery of a higher level typically implies proficiency at the lower levels. The HSLS:09 first follow-up proficiency probabilities were computed using IRT-estimated item parameters. Each proficiency probability represents the probability that a student would pass a given proficiency level. Clusters of four items were identified that marked mathematics level 6: quadratic functions. Students able to answer questions such as these have an understanding of quadratic functions and can solve quadratic equations and inequalities and understand the relationship between roots and the discriminant. See Chapter 2 of the HSLS:09 F1 Data File Documentation (NCES 2014-361) for more information on the derivation of the math proficiency probability scores.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000              0.9981             -0.9323              2.6597 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2TXMPROF7
+Position:   984
+Length:     7
+Label:      X2 Mathematics proficiency probability score: level 7 ** New Level **
+
+Description:
+The math proficiency probability scores are criterion-referenced and are based on clusters of items that mark seven levels on the mathematics scale developed in the HSLS:09 first follow-up. The levels are hierarchical in the sense that mastery of a higher level typically implies proficiency at the lower levels. The HSLS:09 first follow-up proficiency probabilities were computed using IRT-estimated item parameters. Each proficiency probability represents the probability that a student would pass a given proficiency level. Clusters of four items were identified that marked mathematics level 7: log and exponential functions. Students able to answer questions such as these have an understanding of exponential and log functions, including geometric sequences and can identify inverses of log and exponential functions and when geometric sequences converge. See Chapter 2 of the HSLS:09 F1 Data File Documentation (NCES 2014-361) for more information on the derivation of the math proficiency probability scores.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                      -8.0000              0.9164             -0.9646              2.6451 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2MACC
+Position:   991
+Length:     2
+Label:      X2 Mathematics assessment accommodations
+
+Description:
+Whether accommodation(s) were provided for assessment administration to students with special needs - either identified in an IEP or specified by a school official at the time of test administration: no accommodation needed; extra time for test or other special test accommodations needed (e.g., use of calculator, tests read to student). X2MACC was set to 1 if special test accommodations and/or extra time were needed. Those taking a test but not requiring test accommodations had X2MACC=0. X2MACC=-8 for those that did not take the test.
+
+
+SAS Logic:
+if X2TESTSTAT in (1) then do;
+   if F1StuAccom=1 then X2MACC=1; * F1StuAccom pulled from case management system and not on ECB ;
+   else X2MACC=0;
+end;
+else do;
+   X2MACC=-8;
+end;
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No                                                     18,314               77.92 
+1                   Yes                                                       193                0.82 
+-8                  Unit non-response                                       4,996               21.26 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2MEFFORT 
+Position:   1120
+Length:     5
+Label:      X2 Scale of math class effort
+
+Description:
+This variable is a scale of the students answers math effort. Higher values represent more positive assessments of the school's problems. Variable was created through principal components factor analysis and standardized to a mean of 0 and standard deviation of 1. The inputs to this scale were S2MATTENTION, S2MONTIME, S2MSTOPTRYING, S2MGETBY. If the student indicated that he or she was not taking a fall math class, this variable is set to -7.
+
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                1.18               -2.07                3.57 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2MTHID
+Position:   1135
+Length:     5
+Label:      X2 Scale of student's mathematics identity
+
+Description:
+This variable is a scale of the sample member's math identity. Sample members who tend to agree with the statements "You see yourself as a math person" and/or "Others see me as a math person" will have higher values for X2MTHID. This variable was created through principal components factor analysis (weighted by W2STUDENT) and standardized to a mean of 0 and standard deviation of 1. The inputs to this scale were S2MPERSON1 and S2MPERSON2. Only respondents who provided a full set of responses were assigned a scale value. The coefficient of reliability (alpha) for the scale is .65 or higher. For more information on this scale score, please see chapter 5 of the F1 Data File Documentation (NCES 2014-361).
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                1.82               -1.16                3.07 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2MTHUTI
+Position:   1140
+Length:     5
+Label:      X2 Scale of student's mathematics utility
+
+Description:
+This variable is a scale of the sample member's perception of the utility of mathematics; higher values represent perceptions of greater mathematics utility. Variable was created through principal components factor analysis (weighted by W2STUDENT) and standardized to a mean of 0 and standard deviation of 1. The inputs to this scale were S2MUSELIFE, S2MUSECLG, and S2MUSEJOB. Only respondents who provided a full set of responses were assigned a scale value. The coefficient of reliability (alpha) for the scale is .65 or higher. For more information on this scale score, please see chapter 5 of the F1 Data File Documentation (NCES 2014-361).
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                1.21               -1.23                3.07 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2MTHEFF
+Position:   1145
+Length:     5
+Label:      X2 Scale of student's mathematics self-efficacy
+
+Description:
+This variable is a scale of the sample member's math self-efficacy; higher X2MTHEFF values represent higher math self-efficacy. Variable was created through principal components factor analysis (weighted by W2STUDENT) and standardized to a mean of 0 and standard deviation of 1. The inputs to this scale were S2MTESTS, S2MTEXTBOOK, S2MSKILLS, and S2MASSEXCL. Only respondents who provided a full set of responses were assigned a scale value. The coefficient of reliability (alpha) for the scale is .65 or higher. For more information on this scale score, please see chapter 5 of the F1 Data File Documentation (NCES 2014-361).
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                1.73               -1.27                3.16 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2MTHINT_R
+Position:   1150
+Length:     5
+Label:      X2 Scale of student's interest in fall 2009 math course (REVISED)
+
+Description:
+This variable is a scale of the sample member's interest in their base-year math course; higher values represent greater interest in their base-year math course. Variable was created through principal components factor analysis (weighted by W2STUDENT) and standardized to a mean of 0 and standard deviation of 1. The inputs to this scale were S2MENJOYING, S2MWASTE, S2MBORING, S2FAVSUBJ, and S2MENJOYS. Only respondents who provided a full set of responses were assigned a scale value. The coefficient of reliability (alpha) for the scale is .65 or higher. For more information on this scale score, please see chapter 5 of the F1 Data File Documentation (NCES 2014-361).
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                2.17               -2.17                3.62 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X2TESTSTAT
+Position:   1275
+Length:     2
+Label:      X2 Student mathematics assessment status 
+
+Description:
+X2TESTSTAT indicates whether first follow-up HSLS mathematics assessment data are available on the data file for any given sample member.
+
+
+Questionnaire Incapable students have been recoded as nonrespondents on the public use file.
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+1                   F1 assessment respondent                               18,507               78.74 
+2                   F1 assessment nonrespondent (scores impu                2,087                8.88 
+                    ted)
+8                   F1 student survey nonrespondent (no asse                2,909               12.38 
+                    ssment data)
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3T1CREDINTM
+Position:   1505
+Length:     2
+Label:      X3 At least one credit earned in: integrated math
+
+Description:
+Indicates at least one Carnegie unit in Integrated Math, which is the course SCED code(s): 02104, 02108, 02057, 02061, 02101, 02102, 02109, 02111, 02112, 02113, 02149.  A Carnegie unit is equivalent to a one-year academic course taken one period a day, five days a week.
+
+
+SAS Logic:
+if T3SSCED in ('02104','02108','02057','02061','02101','02102','02109','02111','02112','02113','02149') and T3SGRLEV >= 4 then X3T1CREDINTM = X3T1CREDINTM + T3SCRED;
+if X3T1CREDINTM >= .99 then X3T1CREDINTM = 1; 
+else X3T1CREDINTM = 0;
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No                                                     20,421               86.89 
+1                   Yes                                                     1,507                6.41 
+-8                  Unit non-response                                       1,575                6.70 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3TCREDAPMTH
+Position:   1509
+Length:     6
+Label:      X3 Credits earned in: AP/IB mathematics courses
+
+Description:
+Total Carnegie credits in AP and IB Mathematics courses, which is the course SCED code(s): 02124, 02125, 02131, 02132, 02133, 02134, 02203. A Carnegie unit is equivalent to a one-year academic course taken one period a day, five days a week.
+
+
+SAS Logic:
+if T3SSCED in (02124, 02125, 02131, 02132, 02133, 02134, 02203) and T3SGRLEV >= 4 and T3SCRED >= 0 then X3TCREDAPMTH = X3TCREDAPMTH + T3SCRED;
+if T3SSCED in (02124, 02125, 02131, 02132, 02133, 02134, 02203) and T3SGRLEV >= 4 and T3SCREDPOT >= 0 then totPotAPMTHCred = totPotAPMTHCred + T3SCREDPOT; 
+X3TCREDAPMTH = round(X3TCREDAPMTH,.001);
+
+Sparse values recoded to similar values on the public use file.
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                       -8.000               3.000              -0.358               2.104 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3TCREDMAT
+Position:   1523
+Length:     6
+Label:      X3 Credits earned in: mathematics
+
+Description:
+Total Carnegie credits in Mathematics, which is the first two digits of the course SCED code: 02.  A Carnegie unit is equivalent to a one-year academic course taken one period a day, five days a week.
+
+
+SAS Logic:
+if substr(T3SSCED,1,2) = '02' and T3SCRED >= 0 and T3SGRLEV >= 4 then X3TCREDMAT = X3TCREDMAT + T3SCRED;
+if substr(T3SSCED,1,2) = '02' and T3SCREDPOT >= 0 and T3SGRLEV >= 4 then totPotMatCred = totPotMatCred + T3SCREDPOT;
+X3TCREDMAT = round(X3TCREDMAT,.001);
+
+Sparse values recoded to similar values on the public use file.
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                       -8.000               8.000               2.801               3.149 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3THIMATH
+Position:   1529
+Length:     2
+Label:      X3 Highest level mathematics course taken/pipeline
+
+Description:
+Highest Mathematics course, which is the first two digits of the course SCED code: 02.
+
+
+SAS Logic:
+if substr(T3SSCED,1,2) = '02' then do;
+   if T3SSCED in (02001, 02003, 02047, 02049, 02002, 02039, 02151, 02152, 02153, 02154, 02155, 02156, 02157) then mathlevel = 1;
+   else if T3SSCED in (02991, 02993, 02994, 02995, 02996, 02997, 02998, 02999) then mathlevel = 2;
+   else if T3SSCED in (02051, 02053) then mathlevel = 3;
+  else if T3SSCED in (02052, 02054, 02069) then mathlevel = 4;
+   else if T3SSCED in (02071, 02072, 02073, 02074, 02075, 02079, 02135) then mathlevel = 5;
+   else if T3SSCED in (02141, 02055, 02056, 02058) then mathlevel = 6;
+   else if T3SSCED in (02103, 02105, 02106, 02107) then mathlevel = 7;
+   else if T3SSCED in (02104, 02108, 02057, 02061, 02101, 02102, 02109, 02111, 02112, 02113, 02149) then mathlevel = 8;
+   else if T3SSCED in (02201, 02202, 02204, 02207, 02209) then mathlevel = 9;
+   else if T3SSCED in (02131, 02133, 02203) then mathlevel = 10;
+   else if T3SSCED in (02110, 02132) then mathlevel = 11;
+   else if T3SSCED in (02121, 02122, 02123, 02126) then mathlevel = 12;
+   else if T3SSCED in (02124, 02125, 02134) then mathlevel = 13;
+ if X3THIMATH < mathlevel then X3THIMATH = mathlevel;
+  end;
+if last.stu_id then output;
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No Math                                                   416                1.77 
+1                   Basic math                                                127                0.54 
+2                   Other math                                                205                0.87 
+3                   Pre-algebra                                               194                0.83 
+4                   Algebra I                                               1,250                5.32 
+5                   Geometry                                                2,058                8.76 
+6                   Algebra II                                              4,650               19.78 
+7                   Trigonometry                                            1,288                5.48 
+8                   Other advanced math                                     2,499               10.63 
+9                   Probability and statistics                              1,016                4.32 
+10                  Other AP/IB math                                          331                1.41 
+11                  Precalculus                                             4,172               17.75 
+12                  Calculus                                                1,164                4.95 
+13                  AP/IB Calculus                                          2,500               10.64 
+-9                  Missing                                                    58                0.25 
+-8                  Unit non-response                                       1,575                6.70 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3THIMATH9
+Position:   1531
+Length:     2
+Label:      X3 Highest level mathematics course taken - ninth grade
+
+Description:
+Highest Mathematics course taken in Ninth grade, which is the first two digits of the course SCED code: 02.
+
+
+SAS Logic:
+if substr(T3SSCED,1,2) = '02' and T3SGRLEV = 4 then do;
+   if T3SSCED in (02001, 02003, 02047, 02049, 02002, 02039, 02151, 02152, 02153, 02154, 02155, 02156, 02157) then mathlevel = 1;
+   else if T3SSCED in (02991, 02993, 02994, 02995, 02996, 02997, 02998, 02999) then mathlevel = 2;
+   else if T3SSCED in (02051, 02053) then mathlevel = 3;
+  else if T3SSCED in (02052, 02054, 02069) then mathlevel = 4;
+   else if T3SSCED in (02071, 02072, 02073, 02074, 02075, 02079, 02135) then mathlevel = 5;
+   else if T3SSCED in (02141, 02055, 02056, 02058) then mathlevel = 6;
+   else if T3SSCED in (02103, 02105, 02106, 02107) then mathlevel = 7;
+   else if T3SSCED in (02104, 02108, 02057, 02061, 02101, 02102, 02109, 02111, 02112, 02113, 02149) then mathlevel = 8;
+   else if T3SSCED in (02201, 02202, 02204, 02207, 02209) then mathlevel = 9;
+   else if T3SSCED in (02131, 02133, 02203) then mathlevel = 10;
+   else if T3SSCED in (02110, 02132) then mathlevel = 11;
+   else if T3SSCED in (02121, 02122, 02123, 02126) then mathlevel = 12;
+   else if T3SSCED in (02124, 02125, 02134) then mathlevel = 13;
+ if X3THIMATH9 < mathlevel then X3THIMATH9 = mathlevel;
+ if X3TSTATGR09=0 and X3THIMATH9=0 then X3THIMATH9=-9;
+  end;
+if last.STU_ID then output;
+
+Values of "Probability and statistics" and "Other AP/IB match" recoded as "Other advanced math" and values of "AP/IB Calculus" recoded as "Precalculus" on the public use file.
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No Math                                                 1,193                5.08 
+1                   Basic math                                                411                1.75 
+2                   Other math                                                460                1.96 
+3                   Pre-algebra                                             1,060                4.51 
+4                   Algebra I                                              10,506               44.70 
+5                   Geometry                                                4,970               21.15 
+6                   Algebra II                                              1,185                5.04 
+7                   Trigonometry                                              114                0.49 
+8                   Other advanced math                                     1,211                5.15 
+11                  Precalculus                                                48                0.20 
+-9                  Missing                                                   770                3.28 
+-8                  Unit non-response                                       1,575                6.70 
+TOTAL                                                                      23,503              100.01 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3TGPAMAT
+Position:   1533
+Length:     5
+Label:      X3 GPA: mathematics
+
+Description:
+GPA in Mathematics, which is the first two digits of the course SCED code: 02.
+
+
+SAS Logic:
+if substr(T3SSCED,1,2) = '02' and T3SGRD in (1:13) and T3SGRLEV >= 4 then do;
+MatFlag = 0;
+if T3SGRD in (1,2) then gpaGrade = 4.0;
+else if T3SGRD = 3 then gpaGrade = 3.7;
+else if T3SGRD = 4 then gpaGrade = 3.3;
+else if T3SGRD = 5 then gpaGrade = 3.0;
+else if T3SGRD = 6 then gpaGrade = 2.7;
+else if T3SGRD = 7 then gpaGrade = 2.3;
+else if T3SGRD = 8 then gpaGrade = 2.0;
+else if T3SGRD = 9 then gpaGrade = 1.7;
+else if T3SGRD = 10 then gpaGrade = 1.3;
+else if T3SGRD = 11 then gpaGrade = 1.0;
+else if T3SGRD = 12 then gpaGrade = 1.0;
+else if T3SGRD = 13 then gpaGrade = 0.0;
+X3TGPAMATsum = X3TGPAMATsum + (gpaGrade * T3SCRED);
+potMatCred = potMatCred + T3SCREDPOT;
+if X3TGPAMATsum ^= 0 then do;
+X3TGPAMAT = X3TGPAMATsum / potMatCred;
+end;
+else if substr(T3SSCED,1,2) = '02' and T3SCRED > 0 and T3SGRLEV >= 4 and MatFlag ^= 0 then MatFlag = 1;
+if potMatCred = 0.0 then X3TGPAMAT = -1;
+if MatFlag = 1 then X3TGPAMAT = -9;
+X3TGPAMAT = round(X3TGPAMAT,.001);
+
+Sparse values recoded to similar values on the public use file.
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                4.00                1.63                2.81 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3TGPAHIMTH
+Position:   1538
+Length:     5
+Label:      X3 GPA - highest level mathematics course taken
+
+Description:
+GPA in highest Mathematics course, which corresponds to the value of X3THIMATH.
+
+
+SAS Logic:
+retain X3TGPAHIMTHsum potHIMTHCred;
+by STU_ID;
+if first.STU_ID then do;
+X3TGPAHIMTHsum = 0.0;
+potHIMTHCred = 0.0;
+end;
+if substr(T3SSCED,1,2) = '02' then do;
+if T3SGRD in (1:13) and T3SGRLEV >= 4 then do;
+if T3SGRD in (1,2) then gpaGrade = 4.0;
+else if T3SGRD = 3 then gpaGrade = 3.7;
+else if T3SGRD = 4 then gpaGrade = 3.3;
+else if T3SGRD = 5 then gpaGrade = 3.0;
+else if T3SGRD = 6 then gpaGrade = 2.7;
+else if T3SGRD = 7 then gpaGrade = 2.3;
+else if T3SGRD = 8 then gpaGrade = 2.0;
+else if T3SGRD = 9 then gpaGrade = 1.7;
+else if T3SGRD = 10 then gpaGrade = 1.3;
+else if T3SGRD = 11 then gpaGrade = 1.0;
+else if T3SGRD = 12 then gpaGrade = 1.0;
+else if T3SGRD = 13 then gpaGrade = 0.0;
+end;
+if T3SSCED in (02001, 02003, 02047, 02049, 02002, 02039, 02151, 02152, 02153, 02154, 02155, 02156, 02157) and T3SGRLEV >= 4 and X3THIMATH = 1 then do;
+X3TGPAHIMTHsum = X3TGPAHIMTHsum + (gpaGrade * T3SCRED);
+potHIMTHCred = potHIMTHCred + T3SCREDPOT;
+end;
+else if T3SSCED in (02991, 02993, 02994, 02995, 02996, 02997, 02998, 02999) and T3SGRLEV >= 4 and X3THIMATH = 2 then do;
+X3TGPAHIMTHsum = X3TGPAHIMTHsum + (gpaGrade * T3SCRED);
+potHIMTHCred = potHIMTHCred + T3SCREDPOT;
+end;
+else if T3SSCED in (02051, 02053) and T3SGRLEV >= 4 and X3THIMATH = 3 then do;
+X3TGPAHIMTHsum = X3TGPAHIMTHsum + (gpaGrade * T3SCRED);
+potHIMTHCred = potHIMTHCred + T3SCREDPOT;
+end;
+else if T3SSCED in (02052, 02054, 02069) and T3SGRLEV >= 4 and X3THIMATH = 4 then do;
+X3TGPAHIMTHsum = X3TGPAHIMTHsum + (gpaGrade * T3SCRED);
+potHIMTHCred = potHIMTHCred + T3SCREDPOT;
+end;
+else if T3SSCED in (02071, 02072, 02073, 02074, 02075, 02079, 02135) and T3SGRLEV >= 4 and X3THIMATH = 5 then do;
+X3TGPAHIMTHsum = X3TGPAHIMTHsum + (gpaGrade * T3SCRED);
+potHIMTHCred = potHIMTHCred + T3SCREDPOT;
+end;
+else if T3SSCED in (02141, 02055, 02056, 02058) and T3SGRLEV >= 4 and X3THIMATH = 6 then do;
+X3TGPAHIMTHsum = X3TGPAHIMTHsum + (gpaGrade * T3SCRED);
+potHIMTHCred = potHIMTHCred + T3SCREDPOT;
+end;
+else if T3SSCED in (02103, 02105, 02106, 02107) and T3SGRLEV >= 4 and X3THIMATH = 7 then do;
+X3TGPAHIMTHsum = X3TGPAHIMTHsum + (gpaGrade * T3SCRED);
+potHIMTHCred = potHIMTHCred + T3SCREDPOT;
+end;
+else if T3SSCED in (02104, 02108, 02057, 02061, 02101, 02102, 02109, 02111, 02112, 02113, 02149) and T3SGRLEV >= 4 and X3THIMATH = 8 then do;
+X3TGPAHIMTHsum = X3TGPAHIMTHsum + (gpaGrade * T3SCRED);
+potHIMTHCred = potHIMTHCred + T3SCREDPOT;
+end;
+else if T3SSCED in (02201, 02202, 02204, 02207, 02209) and T3SGRLEV >= 4 and X3THIMATH = 9 then do;
+X3TGPAHIMTHsum = X3TGPAHIMTHsum + (gpaGrade * T3SCRED);
+potHIMTHCred = potHIMTHCred + T3SCREDPOT;
+end;
+else if T3SSCED in (02131, 02133, 02203) and T3SGRLEV >= 4 and X3THIMATH = 10 then do;
+X3TGPAHIMTHsum = X3TGPAHIMTHsum + (gpaGrade * T3SCRED);
+potHIMTHCred = potHIMTHCred + T3SCREDPOT;
+end;
+else if T3SSCED in (02110, 02132) and T3SGRLEV >= 4 and X3THIMATH = 11 then do;
+X3TGPAHIMTHsum = X3TGPAHIMTHsum + (gpaGrade * T3SCRED);
+potHIMTHCred = potHIMTHCred + T3SCREDPOT;
+end;
+else if T3SSCED in (02121, 02122, 02123, 02126) and T3SGRLEV >= 4 and X3THIMATH = 12 then do;
+X3TGPAHIMTHsum = X3TGPAHIMTHsum + (gpaGrade * T3SCRED);
+potHIMTHCred = potHIMTHCred + T3SCREDPOT;
+end;
+else if T3SSCED in (02124, 02125, 02134) and T3SGRLEV >= 4 and X3THIMATH = 13 then do;
+X3TGPAHIMTHsum = X3TGPAHIMTHsum + (gpaGrade * T3SCRED);
+potHIMTHCred = potHIMTHCred + T3SCREDPOT;
+end;
+end;
+if last.STU_ID then do;
+if X3TGPAHIMTHsum ^= 0 then do;
+X3TGPAHIMTH = X3TGPAHIMTHsum / potHIMTHCred;
+end;
+else X3TGPAHIMTH = 0;
+X3TGPAHIMTH = round(X3TGPAHIMTH,.01);
+if potHIMTHCred = 0.0 then X3TGPAHIMTH = -9;
+output;
+end;
+
+Sparse values recoded to similar values on the public use file.
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                4.00                1.26                3.29 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3TCREDMTSC
+Position:   1930
+Length:     6
+Label:      X3 Credits earned in: combined mathematics and science
+
+Description:
+Total Carnegie credits in Math and Science, which is the first two digits of the course SCED code: 02, 03. A Carnegie unit is equivalent to a one-year academic course taken one period a day, five days a week.
+
+
+SAS Logic:
+if substr(T3SSCED,1,2) in ('02','03') and T3SGRLEV >= 4 then do;
+ if T3SCRED >= 0 then X3TCREDMTSC = X3TCREDMTSC + T3SCRED;
+ if T3SCREDPOT >= 0 then totPotMTSCCred = totPotMTSCCred + T3SCREDPOT;
+end; 
+X3TCREDMTSC = round(X3TCREDMTSC,.001);
+
+Sparse values recoded to similar values on the public use file.
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                       -8.000              14.000               5.831               4.352 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3TGPAMTHAP
+Position:   2001
+Length:     5
+Label:      X3 GPA: AP/IB math courses
+
+Description:
+GPA in AP and IB Mathematics courses, which is the course SCED code(s): 02124, 02125, 02131, 02132, 02133, 02134, 02203.
+
+
+SAS Logic:
+if T3SSCED in (02124, 02125, 02131, 02132, 02133, 02134, 02203) and T3SGRLEV >= 4 and T3SGRD in (1:13) then do; 
+MthAPFlag = 0;
+if T3SGRD in (1,2) then gpaGrade = 4.0;
+else if T3SGRD = 3 then gpaGrade = 3.7;
+else if T3SGRD = 4 then gpaGrade = 3.3;
+else if T3SGRD = 5 then gpaGrade = 3.0;
+else if T3SGRD = 6 then gpaGrade = 2.7;
+else if T3SGRD = 7 then gpaGrade = 2.3;
+else if T3SGRD = 8 then gpaGrade = 2.0;
+else if T3SGRD = 9 then gpaGrade = 1.7;
+else if T3SGRD = 10 then gpaGrade = 1.3;
+else if T3SGRD = 11 then gpaGrade = 1.0;
+else if T3SGRD = 12 then gpaGrade = 1.0;
+else if T3SGRD = 13 then gpaGrade = 0.0;
+X3TGPAMTHAPsum = X3TGPAMTHAPsum + (gpaGrade * T3SCRED);
+potMTHAPCred = potMTHAPCred + T3SCREDPOT;
+if X3TGPAMTHAPsum ^= 0 then do;
+X3TGPAMTHAP = X3TGPAMTHAPsum / potMTHAPCred;
+end;
+else if T3SSCED in (02124, 02125, 02131, 02132, 02133, 02134, 02203) and T3SGRLEV >= 4 and MthAPFlag ^= 0 then MthAPFlag = 1;
+if potMthAPCred = 0.0 then X3TGPAMTHAP = -1;
+if MthAPFlag = 1 then X3TGPAMTHAP = -9;
+X3TGPAMTHAP = round(X3TGPAMTHAP,.01);
+
+Sparse values recoded to similar values on the public use file.
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                4.00               -0.91                2.38 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3TCRSES1
+Position:   2041
+Length:     2
+Label:      X3 4ENG+3SS+2SCI+2MATH (Flag)
+
+Description:
+The coursetaking completion flags (as well as the new basics variable X3TNEWBASIC) are based on credit counts without regard to the level of courses completed (except, where applicable, for the condition that at least two credits in a single foreign language must be earned). Only credits accrued in 9th through 12th grade (or ungraded) are included. For a cross-subject coursetaking composite that takes into account the level of courses completed, see academic track/concentrator (X3TACADTRCK). 
+Values indicate course taking patterns.  Flag set when at least 4 standard credits earned in English, 3 standard credits earned in Social Studies, 2 standard credits earned in Science, and 2 standard credits earned in Math.
+
+
+SAS Logic:
+if (X3TCREDMAT >= 2 and X3TCREDSCI >= 2 and X3TCREDSOCST >= 3 and X3TCREDENG >= 4) then X3TCRSES1 = 1;
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No                                                      6,859               29.18 
+1                   Yes                                                    15,069               64.12 
+-8                  Unit non-response                                       1,575                6.70 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3TCRSES2
+Position:   2043
+Length:     2
+Label:      X3 4ENG+3SS+3SCI+3MATH (Flag)
+
+Description:
+The coursetaking completion flags (as well as the new basics variable X3TNEWBASIC) are based on credit counts without regard to the level of courses completed (except, where applicable, for the condition that at least two credits in a single foreign language must be earned). Only credits accrued in 9th through 12th grade (or ungraded) are included. For a cross-subject coursetaking composite that takes into account the level of courses completed, see academic track/concentrator (X3TACADTRCK). 
+Values indicate course taking patterns.  Flag set when at least 4 standard credits earned in English, 3 standard credits earned in Social Studies, 3 standard credits earned in Science, and 3 standard credits earned in Math.
+
+
+SAS Logic:
+if (X3TCREDMAT >= 3 and X3TCREDSCI >= 3 and X3TCREDSOCST >= 3 and X3TCREDENG >= 4) then X3TCRSES2 = 1;
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No                                                      8,195               34.87 
+1                   Yes                                                    13,733               58.43 
+-8                  Unit non-response                                       1,575                6.70 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3TCRSES3
+Position:   2045
+Length:     2
+Label:      X3 4ENG+3SS+3SCI+3MATH+1/2COMP (Flag)
+
+Description:
+The coursetaking completion flags (as well as the new basics variable X3TNEWBASIC) are based on credit counts without regard to the level of courses completed (except, where applicable, for the condition that at least two credits in a single foreign language must be earned). Only credits accrued in 9th through 12th grade (or ungraded) are included. For a cross-subject coursetaking composite that takes into account the level of courses completed, see academic track/concentrator (X3TACADTRCK). 
+Values indicate course taking patterns.  Flag set when at least 4 standard credits earned in English, 3 standard credits earned in Social Studies, 3 standard credits earned in Science,  3 standard credits earned in Math, and .5 standard credits earned in computer science.
+
+
+SAS Logic:
+if (X3TCREDMAT >= 3 and X3TCREDSCI >= 3 and X3TCREDSOCST >= 3 and X3TCREDENG >= 4 and X3TCREDCOMPSCI >= .5) then X3TCRSES3 = 1;
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No                                                     14,914               63.46 
+1                   Yes                                                     7,014               29.84 
+-8                  Unit non-response                                       1,575                6.70 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3TCRSES4
+Position:   2047
+Length:     2
+Label:      X3 4ENG+3SS+3SCI+3MATH+1/2COMP+2FL (Flag)
+
+Description:
+The coursetaking completion flags (as well as the new basics variable X3TNEWBASIC) are based on credit counts without regard to the level of courses completed (except, where applicable, for the condition that at least two credits in a single foreign language must be earned). Only credits accrued in 9th through 12th grade (or ungraded) are included. For a cross-subject coursetaking composite that takes into account the level of courses completed, see academic track/concentrator (X3TACADTRCK). 
+Values indicate course taking patterns.  Flag set when at least 4 standard credits earned in English, 3 standard credits earned in Social Studies, 3 standard credits earned in Science,  3 standard credits earned in Math,  .5 standard credits earned in computer science, and 2 standard credits earned in a Foreign Language.
+
+
+SAS Logic:
+* Total individual languages;
+if T3SSCED in ('06101','06102','06103','06104','06105','06106','06107','06108','06109','06110','06111','06112','06113','06114') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then spanishCred = spanishCred + T3SCRED;
+if T3SSCED in ('06121','06122','06123','06124','06125','06126','06127','06128','06129','06130','06131','06132','06134') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then frenchCred = frenchCred + T3SCRED;
+if T3SSCED in ('06141','06142','06143','06144','06145','06146','06147','06148','06149','06150','06151','06152','06153') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then italianCred = italianCred + T3SCRED;
+if T3SSCED in ('06161','06162','06163','06164','06165','06166','06167','06168','06169','06170','06171','06172') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then portugueseCred = portugueseCred + T3SCRED;
+if T3SSCED in ('06181','06182','06183','06184','06185','06186','06187','06188','06189','06190','06191','06199') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then italicCred = italicCred + T3SCRED;
+if T3SSCED in ('06201','06202','06203','06204','06205','06206','06207','06208','06209','06210','06211','06212','06213') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then germanCred = germanCred + T3SCRED;
+if T3SSCED in ('06241','06242','06243','06244','06245','06246','06247','06248','06249','06250','06251','06259') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then germanicCred = germanicCred + T3SCRED;
+if T3SSCED in ('06261','06262','06263','06264','06265','06266','06267','06268','06269','06270','06271','06279') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then celticCred = celticCred + T3SCRED;
+if T3SSCED in ('06281','06282','06283','06284','06285','06286','06287','06288','06289','06290','06291','06299') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then greekCred = greekCred + T3SCRED;
+if T3SSCED in ('06301','06302','06303','06304','06305','06311','06313') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then latinCred = latinCred + T3SCRED;
+if T3SSCED in ('06321','06322','06323','06324','06325','06331','06332','06359') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then clGreekCred = clGreekCred + T3SCRED;
+if T3SSCED in ('06401','06402','06403','06404','06405','06406','06407','06408','06409','06410','06411','06412','06413') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then chineseCred = chineseCred + T3SCRED;
+if T3SSCED in ('06421','06422','06423','06424','06425','06426','06427','06428','06429','06430','06431','06432','06433') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then japaneseCred = japaneseCred + T3SCRED;
+if T3SSCED in ('06441','06442','06443','06444','06445','06446','06447','06448','06449','06450','06451','06452') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then koreanCred = koreanCred + T3SCRED;
+if T3SSCED in ('06481','06482','06483','06484','06485','06486','06487','06488','06489','06490','06491','06499') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then eastAsianCred = eastAsianCred + T3SCRED;
+if T3SSCED in ('06501','06502','06503','06504','06505','06506','06507','06508','06509','06510','06511','06512') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then vietnameseCred = vietnameseCred + T3SCRED;
+if T3SSCED in ('06521','06522','06523','06524','06525','06526','06527','06528','06529','06530','06531','06532') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then filipinoCred = filipinoCred + T3SCRED;
+if T3SSCED in ('06581','06582','06583','06584','06585','06586','06587','06588','06589','06590','06591','06599') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then southeastAsianCred = southeastAsianCred + T3SCRED;
+if T3SSCED in ('06601','06602','06603','06604','06605','06606','06607','06608','06609','06610','06611','06612') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then russianCred = russianCred + T3SCRED;
+if T3SSCED in ('06641','06642','06643','06644','06645','06646','06647','06648','06649','06650','06651','06659') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then slavicCred = slavicCred + T3SCRED;
+if T3SSCED in ('06661','06662','06663','06664','06665','06666','06667','06668','06669','06670','06671','06679') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then turkicCred = turkicCred + T3SCRED;
+if T3SSCED in ('06681','06682','06683','06684','06685','06686','06687','06688','06689','06690','06691','06699') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then persianCred = persianCred + T3SCRED;
+if T3SSCED in ('06701','06702','06703','06704','06705','06706','06707','06708','06709','06710','06711','06712','06713') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then hebrewCred = hebrewCred + T3SCRED;
+if T3SSCED in ('06721','06722','06723','06724','06725','06726','06727','06728','06729','06730','06731','06732','06733') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then arabicCred = arabicCred + T3SCRED;
+if T3SSCED in ('06761','06762','06763','06764','06765','06766','06767','06768','06769','06770','06771','06772') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then swahiliCred = swahiliCred + T3SCRED;
+if T3SSCED in ('06781','06782','06783','06784','06785','06786','06787','06788','06789','06790','06791','06799') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then nonSemiticAfricanCred = nonSemiticAfricanCred + T3SCRED;
+if T3SSCED in ('06801','06802','06803','06804','06805','06806','06819') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then ASLCred = ASLCred + T3SCRED;
+if T3SSCED in ('06821','06822','06823','06824','06825','06826','06827','06828','06829','06830','06831','06832','06839') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then americanIndianCred = americanIndianCred + T3SCRED;
+if T3SSCED in ('06841','06842','06843','06844','06845','06846','06847','06848','06849','06850','06851','06859') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then indicCred = indicCred + T3SCRED;
+if T3SSCED in ('06861','06862','06863','06864','06865','06866','06867','06868','06869','06870','06871','06879') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then polynesianCred = polynesianCred + T3SCRED;
+if last.caseid then do;
+   	if (spanishCred >=2 or
+   	frenchCred  >=2 or
+   	italianCred  >=2 or
+   	portugueseCred  >=2 or
+   	italicCred  >=2 or
+   	germanCred  >=2 or
+   	germanicCred  >=2 or
+   	celticCred  >=2 or
+   	greekCred  >=2 or
+   	latinCred  >=2 or
+   	clGreekCred  >=2 or
+   	chineseCred  >=2 or
+   	japaneseCred  >=2 or
+   	koreanCred  >=2 or
+   	eastAsianCred  >=2 or
+   	vietnameseCred  >=2 or
+   	filipinoCred  >=2 or
+   	southeastAsianCred  >=2 or
+   	russianCred  >=2 or
+   	slavicCred  >=2 or
+   	turkicCred  >=2 or
+   	persianCred  >=2 or
+   	hebrewCred  >=2 or
+   	arabicCred  >=2 or
+   	swahiliCred  >=2 or
+   	nonSemiticAfricanCred  >=2 or
+   	ASLCred  >=2 or
+   	americanIndianCred  >=2 or
+   	indicCred  >=2 or
+	polynesianCred  >=2) then X3TCREDLANG_specific=2;
+   if (X3TCREDMAT >= 3 and X3TCREDSCI >= 3 and X3TCREDSOCST >= 3 and X3TCREDENG >= 4 and X3TCREDCOMPSCI >= .5 and X3TCREDLANG_specific = 2) then X3TCRSES4 = 1;
+end;
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No                                                     16,531               70.34 
+1                   Yes                                                     5,397               22.96 
+-8                  Unit non-response                                       1,575                6.70 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3TCRSES5
+Position:   2049
+Length:     2
+Label:      X3 4ENG+3SS+3SCI+3MATH+2FL (Flag)
+
+Description:
+The coursetaking completion flags (as well as the new basics variable X3TNEWBASIC) are based on credit counts without regard to the level of courses completed (except, where applicable, for the condition that at least two credits in a single foreign language must be earned). Only credits accrued in 9th through 12th grade (or ungraded) are included. For a cross-subject coursetaking composite that takes into account the level of courses completed, see academic track/concentrator (X3TACADTRCK). 
+Values indicate course taking patterns.  Flag set when at least 4 standard credits earned in English, 3 standard credits earned in Social Studies, 3 standard credits earned in Science,  3 standard credits earned in Math,  and 2 standard credits earned in a Foreign Language.
+
+
+SAS Logic:
+* Total individual languages;
+if T3SSCED in ('06101','06102','06103','06104','06105','06106','06107','06108','06109','06110','06111','06112','06113','06114') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then spanishCred = spanishCred + T3SCRED;
+if T3SSCED in ('06121','06122','06123','06124','06125','06126','06127','06128','06129','06130','06131','06132','06134') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then frenchCred = frenchCred + T3SCRED;
+if T3SSCED in ('06141','06142','06143','06144','06145','06146','06147','06148','06149','06150','06151','06152','06153') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then italianCred = italianCred + T3SCRED;
+if T3SSCED in ('06161','06162','06163','06164','06165','06166','06167','06168','06169','06170','06171','06172') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then portugueseCred = portugueseCred + T3SCRED;
+if T3SSCED in ('06181','06182','06183','06184','06185','06186','06187','06188','06189','06190','06191','06199') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then italicCred = italicCred + T3SCRED;
+if T3SSCED in ('06201','06202','06203','06204','06205','06206','06207','06208','06209','06210','06211','06212','06213') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then germanCred = germanCred + T3SCRED;
+if T3SSCED in ('06241','06242','06243','06244','06245','06246','06247','06248','06249','06250','06251','06259') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then germanicCred = germanicCred + T3SCRED;
+if T3SSCED in ('06261','06262','06263','06264','06265','06266','06267','06268','06269','06270','06271','06279') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then celticCred = celticCred + T3SCRED;
+if T3SSCED in ('06281','06282','06283','06284','06285','06286','06287','06288','06289','06290','06291','06299') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then greekCred = greekCred + T3SCRED;
+if T3SSCED in ('06301','06302','06303','06304','06305','06311','06313') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then latinCred = latinCred + T3SCRED;
+if T3SSCED in ('06321','06322','06323','06324','06325','06331','06332','06359') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then clGreekCred = clGreekCred + T3SCRED;
+if T3SSCED in ('06401','06402','06403','06404','06405','06406','06407','06408','06409','06410','06411','06412','06413') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then chineseCred = chineseCred + T3SCRED;
+if T3SSCED in ('06421','06422','06423','06424','06425','06426','06427','06428','06429','06430','06431','06432','06433') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then japaneseCred = japaneseCred + T3SCRED;
+if T3SSCED in ('06441','06442','06443','06444','06445','06446','06447','06448','06449','06450','06451','06452') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then koreanCred = koreanCred + T3SCRED;
+if T3SSCED in ('06481','06482','06483','06484','06485','06486','06487','06488','06489','06490','06491','06499') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then eastAsianCred = eastAsianCred + T3SCRED;
+if T3SSCED in ('06501','06502','06503','06504','06505','06506','06507','06508','06509','06510','06511','06512') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then vietnameseCred = vietnameseCred + T3SCRED;
+if T3SSCED in ('06521','06522','06523','06524','06525','06526','06527','06528','06529','06530','06531','06532') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then filipinoCred = filipinoCred + T3SCRED;
+if T3SSCED in ('06581','06582','06583','06584','06585','06586','06587','06588','06589','06590','06591','06599') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then southeastAsianCred = southeastAsianCred + T3SCRED;
+if T3SSCED in ('06601','06602','06603','06604','06605','06606','06607','06608','06609','06610','06611','06612') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then russianCred = russianCred + T3SCRED;
+if T3SSCED in ('06641','06642','06643','06644','06645','06646','06647','06648','06649','06650','06651','06659') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then slavicCred = slavicCred + T3SCRED;
+if T3SSCED in ('06661','06662','06663','06664','06665','06666','06667','06668','06669','06670','06671','06679') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then turkicCred = turkicCred + T3SCRED;
+if T3SSCED in ('06681','06682','06683','06684','06685','06686','06687','06688','06689','06690','06691','06699') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then persianCred = persianCred + T3SCRED;
+if T3SSCED in ('06701','06702','06703','06704','06705','06706','06707','06708','06709','06710','06711','06712','06713') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then hebrewCred = hebrewCred + T3SCRED;
+if T3SSCED in ('06721','06722','06723','06724','06725','06726','06727','06728','06729','06730','06731','06732','06733') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then arabicCred = arabicCred + T3SCRED;
+if T3SSCED in ('06761','06762','06763','06764','06765','06766','06767','06768','06769','06770','06771','06772') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then swahiliCred = swahiliCred + T3SCRED;
+if T3SSCED in ('06781','06782','06783','06784','06785','06786','06787','06788','06789','06790','06791','06799') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then nonSemiticAfricanCred = nonSemiticAfricanCred + T3SCRED;
+if T3SSCED in ('06801','06802','06803','06804','06805','06806','06819') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then ASLCred = ASLCred + T3SCRED;
+if T3SSCED in ('06821','06822','06823','06824','06825','06826','06827','06828','06829','06830','06831','06832','06839') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then americanIndianCred = americanIndianCred + T3SCRED;
+if T3SSCED in ('06841','06842','06843','06844','06845','06846','06847','06848','06849','06850','06851','06859') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then indicCred = indicCred + T3SCRED;
+if T3SSCED in ('06861','06862','06863','06864','06865','06866','06867','06868','06869','06870','06871','06879') 
+	and T3SCRED >= 0 and T3SGRLEV >= 4 then polynesianCred = polynesianCred + T3SCRED;
+if last.caseid then do;
+   	if (spanishCred >=2 or
+   	frenchCred  >=2 or
+   	italianCred  >=2 or
+   	portugueseCred  >=2 or
+   	italicCred  >=2 or
+   	germanCred  >=2 or
+   	germanicCred  >=2 or
+   	celticCred  >=2 or
+   	greekCred  >=2 or
+   	latinCred  >=2 or
+   	clGreekCred  >=2 or
+   	chineseCred  >=2 or
+   	japaneseCred  >=2 or
+   	koreanCred  >=2 or
+   	eastAsianCred  >=2 or
+   	vietnameseCred  >=2 or
+   	filipinoCred  >=2 or
+   	southeastAsianCred  >=2 or
+   	russianCred  >=2 or
+   	slavicCred  >=2 or
+   	turkicCred  >=2 or
+   	persianCred  >=2 or
+   	hebrewCred  >=2 or
+   	arabicCred  >=2 or
+   	swahiliCred  >=2 or
+   	nonSemiticAfricanCred  >=2 or
+   	ASLCred  >=2 or
+   	americanIndianCred  >=2 or
+   	indicCred  >=2 or
+	polynesianCred  >=2) then X3TCREDLANG_specific=2;
+   if (X3TCREDMAT >= 3 and X3TCREDSCI >= 3 and X3TCREDSOCST >= 3 and X3TCREDENG >= 4 and X3TCREDLANG_specific = 2) then X3TCRSES5 = 1;
+end;
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No                                                     11,137               47.39 
+1                   Yes                                                    10,791               45.91 
+-8                  Unit non-response                                       1,575                6.70 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3TXSATMATH
+Position:   2057
+Length:     3
+Label:      X3 College entrance exam math score in terms of SAT
+
+Description:
+College entrance exam (i.e., SAT, ACT) math section score, standardized in terms of SAT. The score is filled from either the SAT math section score or the ACT math section score (using the ACT to SAT concordance scale).
+Sources: College Board and transcripts.
+
+
+Variable suppressed with -5 values on the public use file.
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -5.00               -5.00               -5.00                0.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3TXAPMATCOM
+Position:   2110
+Length:     2
+Label:      AP exam: Mathematics and computer science
+
+Description:
+Advanced Placement Exam: Mathematics and computer science
+
+Programming Notes: 
+Exam score as provided by College Board or the sample member's high school transcript.
+
+
+Variable suppressed with -5 values on the public use file.
+
+                                                                        Frequency 
+Category            Label                                              Unweighted 
+------------------- ----------------------------------------- ------------------- 
+-5                  Data suppressed                                        23,503 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3TXSATMAT1
+Position:   2157
+Length:     3
+Label:      SAT subject test: Math Level 1
+
+Description:
+Math Level 1 SAT subject test score as provided by College Board or the sample member transcript.
+
+
+Variable suppressed with -5 values on the public use file.
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -5.00               -5.00               -5.00                0.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X3TXSATMAT2
+Position:   2160
+Length:     3
+Label:      SAT subject test: Math Level 2
+
+Description:
+Math Level 2 SAT subject test score as provided by College Board or the sample member transcript.
+
+
+Variable suppressed with -5 values on the public use file.
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -5.00               -5.00               -5.00                0.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X4TXSATMATH
+Position:   2274
+Length:     3
+Label:      X4 College entrance exam math score in terms of SAT
+
+Description:
+College entrance exam (i.e., SAT, ACT) math section score, standardized to the SAT.
+
+College entrance exam (i.e., SAT, ACT) math section score, standardized to the SAT. The score is filled from either the SAT math section score or the ACT math section score (using the ACT to SAT concordance scale).  The 1999 concordance scale was used as it provides concordance for math, reading, and composite scores.  For more information on the concordance scale, refer to: https://www.ets.org/Media/Research/pdf/RR-99-02-Dorans.pdf
+
+
+
+Variable suppressed with -5 values on the public use file.
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -5.00               -5.00               -5.00                0.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X4ENTMJST
+Position:   2384
+Length:     2
+Label:      X4 Major considering upon postsecondary entry is in a science, technology, engineering, or math (STEM) field
+
+Description:
+Indicates whether the major the student was most seriously considering when first entering postsecondary education after high school was in a science, technology, engineering, or math (STEM) field.
+Based on the major the respondent was most seriously considering when first entering postsecondary education after high school as reported during the second follow up interview (S4FIELD). This may or may not be a declared major. Majors are classified using the U.S. Department of Education's Classification of Instructional Programs, 2010 edition (CIP 2010) and then classified as STEM using the definition used by the E.D. SMART grant. The variable S3FIELD_STEM contains similar data collected from either students or their parents in the 2013 Update. The 2013 Update collected intended field of study on the cusp of postsecondary entry or during the fall term of 2013 whereas this variable collects the intended major retrospectively. Question wording differs slightly due to temporal differences.  See also X4ENTMJSTNSF for NSF-supported STEM majors.
+
+Applies to: Second follow-up respondents who ever enrolled in a postsecondary institution after high school (i.e., X4EVRATNDCLG = 1)
+
+SAS Logic:
+if X4EVRATNDCLG = 0 then X4ENTMJST = -7;
+ else do;
+ if S4FIELD6 in (-9,-4,-3) then X4ENTMJST = -9;
+ else if S4FIELD6 = -7 then X4ENTMJST = -7;
+    else if S4FIELD6 = -1 then X4ENTMJST = -1;
+    else if (01.0901 <= S4FIELD6 <= 01.1299) or
+       (11.0101 <= S4FIELD6 <= 11.0501) or 
+       (11.0701 <= S4FIELD6 <= 11.9999) or
+       (14.0000 <= S4FIELD6 <= 15.0499) or
+       (15.0503 <= S4FIELD6 <= 15.9999) or
+       (26.0000 <= S4FIELD6 <= 27.9999) or
+       (29.0000 <= S4FIELD6 <= 29.9999) or
+       (40.0000 <= S4FIELD6 <= 41.9999) or
+       S4FIELD6 in (03.0104, 03.0301, 03.0502, 03.0509, 03.0601, 03.3201, 
+               30.0101, 30.0601, 30.0801, 30.1501, 30.1001, 30.1601, 30.1801, 
+               30.1901, 30.2401, 30.2501, 30.2701, 30.3001, 30.3101, 42.2706)
+        then X4ENTMJST = 1;
+    else X4ENTMJST = 0;
+end;
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No                                                      8,941               38.04 
+1                   Yes                                                     3,193               13.59 
+-9                  Missing                                                   225                0.96 
+-8                  Unit non-response                                       6,168               26.24 
+-7                  Item legitimate skip/NA                                 4,281               18.21 
+-1                  Undeclared/undecided                                      695                2.96 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X5REMMTTOT
+Position:   2945
+Length:     2
+Label:      Postsecondary Transcript: Remedial mathematics courses: total known taken
+
+Description:
+Indicates the total number of known remedial mathematics courses taken during the student's postsecondary education as of June 2016.
+
+Source: HSLS:09 Postsecondary Education Transcripts
+Applies To: Postsecondary transcript respondents.
+
+Notes: Duplicate course records, created by the transfer of course credits to one or more additional institutions, are only counted once. Graduate, dropped, advanced placement, or audited courses, are excluded from this calculation as well as courses that end after June 2016 or are not provided by a transcript. The definition of remedial was revised from ELS:2002 Postsecondary Education Transcripts Study. CCM Codes 23.1397 (Business English) and 27.9990 (Business Math) have been removed from the specific criteria based on recommendations by an expert panel. See T5CREMEDIAL for more information about remedial course designation. 
+
+SAS Logic: 
+Where T5COURSEDUP = 0 and T5CCRSLEVEL ne 2, 
+X5REMMTTOT = Count if T5CREMEDIAL = 1 and T5CCMCODE in (32.0104 27.9990) or (27.0194 < T5CCMCODE < 27.0199) and T5CNORMGRDE not in (-92 -94 -95).
+If (all courses after June 2016) or (all courses T5CCRSLEVEL ne 2) or (all courses T5CRECRDFLG in (2 3 4)) then X5REMMTTOT = -9;
+else if X5TRANRESP = 1 then X5REMMTTOT = 0;
+else if X5TRANRESP in (0 3) then X5REMMTTOT = -6;
+else if X5TRANRESP = 2 then X5REMMTTOT = -8.
+All courses with term end dates (or term start dates if end date is missing) after June 2016 have been excluded from this calculation. 
+
+Sparse values recoded to similar values on the public use file.
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                7.00               -2.79                3.80 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X5REMMTHPS
+Position:   2947
+Length:     2
+Label:      Postsecondary Transcript: Remedial mathematics courses: number known passed
+
+Description:
+Indicates the total number of known remedial mathematics courses passed during the student's postsecondary education as of June 2016.
+
+Source: HSLS:09 Postsecondary Education Transcripts
+Applies To: Postsecondary transcript respondents.
+
+Notes: Duplicate course records, created by the transfer of course credits to one or more additional institutions, are only counted once. Courses that end after June 2016, are not provided by a transcript, or are a part of a graduate program should be excluded from this calculation as well. The definition of remedial was revised from ELS:2002 Postsecondary Education Transcripts Study. CCM Codes 23.1397 (Business English) and 27.9990 (Business Math) have been removed from the specific criteria based on recommendations by an expert panel. See T5CREMEDIAL for more information about remedial course designation. 
+
+SAS Logic: 
+Where T5COURSEDUP = 0 and T5CCRSLEVEL ne 2, 
+X5REMMTHPS = Count if T5CREMEDIAL = 1 and (T5CCMCODE in (32.0104 27.9990) or (27.0194 < T5CCMCODE < 27.0199)) and (T5CNORMGRDE > 0.0 or T5CNORMGRDE = -98). 
+If (all courses after June 2016) or (all courses T5CCRSLEVEL ne 2) or (all courses T5CRECRDFLG in (2 3 4)) then X5REMMTHPS = -9;
+else if X5TRANRESP = 1 then X5REMMTHPS = 0;
+else if X5TRANRESP in (0 3) then X5REMMTHPS = -6;
+else if X5TRANRESP = 2 then X5REMMTHPS = -8.
+All courses with term end dates (or term start dates if end date is missing) after June 2016 have been excluded from this calculation. 
+
+Sparse values recoded to similar values on the public use file.
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                6.00               -2.88                3.68 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X5REMMTRAT
+Position:   2949
+Length:     4
+Label:      Postsecondary Transcript: Remedial mathematics courses: ratio of number known taken to known passed
+
+Description:
+Indicates the ratio of remedial mathematics courses taken to remedial mathematics courses passed during the student's postsecondary education as of June 2016.
+
+Source: HSLS:09 Postsecondary Education Transcripts
+Applies To: Postsecondary transcript respondents.
+
+Notes: Duplicate course records, created by the transfer of course credits to one or more additional institutions, are only counted once. Graduate, dropped, advanced placement, or audited courses, are excluded from this calculation as well as courses that end after June 2016 or are not provided by a transcript. The definition of remedial was revised from ELS:2002 Postsecondary Education Transcripts Study. CCM Codes 23.1397 (Business English) and 27.9990 (Business Math) have been removed from the specific criteria based on recommendations by an expert panel. See T5CREMEDIAL for more information about remedial course designation. The 2010 College Course Map (CCM) is used to code these data. See https://nces.ed.gov/surveys/pets/ccm.asp for more information on the CCM.
+
+SAS Logic: 
+X5REMMTRAT = X5REMMTHPS/X5REMMTTOT.
+If X5REMMTTOT < 0 then X5REMMTRAT = -9;
+else if X5TRANRESP in (0 3) then X5REMMTRAT = -6;
+else if X5TRANRESP = 2 then X5REMMTRAT = -8.
+All courses with term end dates (or term start dates if end date is missing) after June 2016 have been excluded from this calculation.
+
+Sparse values recoded to similar values on the public use file.
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00                1.00               -6.52                3.34 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X5CMTHATT
+Position:   2967
+Length:     7
+Label:      Postsecondary Transcript: All college-level mathematics: known credits attempted
+
+Description:
+Indicates the total amount of normalized college-level mathematics credits attempted during the student's postsecondary education as of June 2016.
+
+Source: HSLS:09 Postsecondary Education Transcripts
+Applies To: Postsecondary transcript respondents.
+
+Notes: This variable utilizes "normalized" credits, which places the hours or credit units on a common scale so that credit units can be compared across institutions. See T5CNORMATT for further information about credit normalization. Duplicate course records, created by the transfer of course credits to one or more additional institutions, are only counted once. Courses that are a part of a graduate program, ended after June 2016, or are not provided by a transcript are excluded from this calculation. Courses with a normalized grade of advanced placement, transfer, audit, or drop are excluded from this calculation. The 2010 College Course Map (CCM) was used to code these data. See https://nces.ed.gov/surveys/pets/ccm.asp for more information on the CCM.
+
+SAS Logic: 
+Where T5COURSEDUP = 0 and T5CCRSLEVEL ne 2, 
+X5CMTHATT = Sum of T5CNORMATT where T5CCMCODE in (27.0101, 27.0102, 27.0104, 27.0199, 27.0301, 27.0303, 27.0305, 27.0399, 27.0501, 27.0502, 27.0503, 27.0599, 27.9988, 27.9989, 27.9991, 27.9992, 27.9993, 27.9997, 27.9998, 27.9999) and T5CNORMGRDE not in (-92 -93 -94 -95).
+If (all courses after June 2016) or (all courses T5CCRSLEVEL = 2) or (all courses T5CRECRDFLG in (2 3 4)) or (all courses that meet the specific requirements have T5CNORMATT = -9) then X5CMTHATT = -9;
+else if X5TRANRESP = 1 then X5CMTHATT = 0;
+else if X5TRANRESP in (0 3) then X5CMTHATT = -6;
+else if X5TRANRESP = 2 then X5CMTHATT = -8.
+All courses with term end dates (or term start dates if end date is missing) after June 2016 have been excluded from this calculation. If there are both valid T5CNORMATT values (e.g., 3) and missing values that meet the criteria then X5CMTHATT ignores the missing values and only sums the valid values.
+
+Sparse values recoded to similar values on the public use file.
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                       -9.000              25.000              -1.297               5.750 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       X5CMTHERN
+Position:   2974
+Length:     7
+Label:      Postsecondary Transcript: All college-level mathematics: known credits earned
+
+Description:
+Indicates the total amount of normalized college-level mathematics credits earned during the student's postsecondary education as of June 2016.
+
+Source: HSLS:09 Postsecondary Education Transcripts
+Applies To: Postsecondary transcript respondents.
+
+Notes: This variable utilizes "normalized" credits, which places the hours or credit units on a common scale so that credit units can be compared across institutions. See T5CNORMCRED for further information about credit normalization. Duplicate course records, created by the transfer of course credits to one or more additional institutions, are only counted once. Courses that are a part of a graduate program, ended after June 2016, or are not provided by a transcript are excluded from this calculation. Courses with a normalized grade of incomplete, in-progress, audit, drop, withdrawal, or failing in a pass/fail course are excluded from this calculation. The 2010 College Course Map (CCM) was used to code these data. See https://nces.ed.gov/surveys/pets/ccm.asp for more information on the CCM.
+
+SAS Logic: 
+Where T5COURSEDUP = 0 and T5CCRSLEVEL ne 2, 
+X5CMTHERN = Sum of T5CNORMCRED where (T5CCMCODE in (27.0101 27.0102 27.0104 27.0199 27.0301 27.0303 27.0305 27.0399 27.0501 27.0502 27.0503 27.0599 27.9988 27.9989 27.9991 27.9992 27.9993 27.9997 27.9998 27.9999)) and (T5CNORMGRDE > 0.0 or T5CNORMGRDE in (-9 -92 -93 -98 -99)).
+If (all courses after June 2016) or (all courses T5CCRSLEVEL = 2) or (all courses T5CRECRDFLG in (2 3 4)) or (all courses that meet the specific requirements have T5CNORMCRED = -9) then X5CMTHERN = -9;
+else if X5TRANRESP = 1 then X5CMTHERN = 0;
+else if X5TRANRESP in (0 3) then X5CMTHERN = -6;
+else if X5TRANRESP = 2 then X5CMTHERN = -8.
+All courses with term end dates (or term start dates if end date is missing) after June 2016 have been excluded from this calculation. If there are both valid T5CNORMCRED values (e.g., 3) and missing values that meet the criteria then X5CMTHERN ignores the missing values and only sums the valid values.
+
+Sparse values recoded to similar values on the public use file.
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                       -9.000              23.000              -1.587               5.398 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       S1MCLUB
+Position:   3709
+Length:     2
+Label:      S1 B04A 9th grader participated in math club since start of 08-09 school year
+
+Description:
+Since the beginning of the last school year (2008-2009), which of the following activities have you participated in?
+(Check all that apply.)
+  Math club
+  Math competition
+  Math camp
+  Math study groups or a program where you were tutored in math
+  Science club
+  Science competition
+  Science camp
+  Science study groups or a program where you were tutored in science
+  None of these
+
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No                                                     20,406               86.82 
+1                   Yes                                                       670                2.85 
+-9                  Missing                                                   368                1.57 
+-8                  Unit non-response                                       2,059                8.76 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       S1MCAMP
+Position:   3713
+Length:     2
+Label:      S1 B04C 9th grader participated in math camp since start of 08-09 school year
+
+Description:
+Since the beginning of the last school year (2008-2009), which of the following activities have you participated in?
+(Check all that apply.)
+  Math club
+  Math competition
+  Math camp
+  Math study groups or a program where you were tutored in math
+  Science club
+  Science competition
+  Science camp
+  Science study groups or a program where you were tutored in science
+  None of these
+
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No                                                     20,953               89.15 
+1                   Yes                                                       123                0.52 
+-9                  Missing                                                   368                1.57 
+-8                  Unit non-response                                       2,059                8.76 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       S1MTUTOR
+Position:   3715
+Length:     2
+Label:      S1 B04D 9th grader participated in math study group/tutoring since start 08-09
+
+Description:
+Since the beginning of the last school year (2008-2009), which of the following activities have you participated in?
+(Check all that apply.)
+  Math club
+  Math competition
+  Math camp
+  Math study groups or a program where you were tutored in math
+  Science club
+  Science competition
+  Science camp
+  Science study groups or a program where you were tutored in science
+  None of these
+
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No                                                     19,939               84.84 
+1                   Yes                                                     1,137                4.84 
+-9                  Missing                                                   368                1.57 
+-8                  Unit non-response                                       2,059                8.76 
+TOTAL                                                                      23,503              100.01 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       S1NOMSACT
+Position:   3725
+Length:     2
+Label:      S1 B04I 9th grader did not participate in any math/science activities listed 
+
+Description:
+Since the beginning of the last school year (2008-2009), which of the following activities have you participated in?
+(Check all that apply.)
+  Math club
+  Math competition
+  Math camp
+  Math study groups or a program where you were tutored in math
+  Science club
+  Science competition
+  Science camp
+  Science study groups or a program where you were tutored in science
+  None of these
+
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No                                                      3,068               13.05 
+1                   Yes                                                    18,008               76.62 
+-9                  Missing                                                   368                1.57 
+-8                  Unit non-response                                       2,059                8.76 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       S1MPERSON1
+Position:   3741
+Length:     2
+Label:      S1 C01A 9th grader sees himself/herself as a math person
+
+Description:
+How much do you agree or disagree with the following statements?
+You see yourself as a math person
+  Strongly agree
+  Agree
+  Disagree
+  Strongly disagree
+
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+1                   Strongly agree                                          3,276               13.94 
+2                   Agree                                                   8,035               34.19 
+3                   Disagree                                                6,419               27.31 
+4                   Strongly disagree                                       3,617               15.39 
+-9                  Missing                                                    97                0.41 
+-8                  Unit non-response                                       2,059                8.76 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       S1MPERSON2
+Position:   3743
+Length:     2
+Label:      S1 C01B Others see 9th grader as a math person
+
+Description:
+How much do you agree or disagree with the following statements?
+Others see you as a math person
+  Strongly agree
+  Agree
+  Disagree
+  Strongly disagree
+
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+1                   Strongly agree                                          2,911               12.39 
+2                   Agree                                                   8,547               36.37 
+3                   Disagree                                                6,508               27.69 
+4                   Strongly disagree                                       3,217               13.69 
+-9                  Missing                                                   261                1.11 
+-8                  Unit non-response                                       2,059                8.76 
+TOTAL                                                                      23,503              100.01 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       S1MUNDERST
+Position:   3745
+Length:     2
+Label:      S1 C02 How often 9th grader thinks he/she really understands math assignments
+
+Description:
+When you are working on a math assignment, how often do you think you really understand the assignment?
+  Never
+  Rarely
+  Sometimes
+  Often
+
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+1                   Never                                                     440                1.87 
+2                   Rarely                                                  1,679                7.14 
+3                   Sometimes                                               7,447               31.69 
+4                   Often                                                  11,775               50.10 
+-9                  Missing                                                   103                0.44 
+-8                  Unit non-response                                       2,059                8.76 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       S1MFALL09
+Position:   3747
+Length:     2
+Label:      S1 C03 9th grader is taking a math course in the fall 2009 term
+
+Description:
+Are you currently taking a math course this fall?
+[Were you taking a math course in the fall of 2009?]
+  Yes
+  No
+
+Note:  For interviews conducted prior to late-December 2009, this question appeared in the un-bracketed form above; for interviews conducted late-December 2009 or later, this question was displayed using the bracketed text above.
+
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No                                                      2,113                8.99 
+1                   Yes                                                    19,161               81.53 
+-9                  Missing                                                   170                0.72 
+-8                  Unit non-response                                       2,059                8.76 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       S1REVM09
+Position:   3757
+Length:     2
+Label:      S1 C04E 9th grader is taking Review or Remedial Math in fall 2009 term
+
+Description:
+What math course(s) are you currently taking this fall? 
+[What math course(s) were you taking in the fall (2009)?]
+(Check all that apply.)
+  Algebra I including IA and IB
+  Geometry
+  Algebra II
+  Trigonometry
+  Review or Remedial Math including Basic, Business, Consumer, Functional or General math
+  Integrated Math I
+  Statistics or Probability
+  Integrated Math II or above
+  Pre-algebra
+  Analytic Geometry
+  Other advanced math course such as pre-calculus or calculus
+  Other math course
+
+Note:  For interviews conducted prior to late-December 2009, this question appeared in the un-bracketed form above; for interviews conducted late-December 2009 or later, this question was displayed using the bracketed text above.
+
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No                                                     19,001               80.84 
+1                   Yes                                                       130                0.55 
+-9                  Missing                                                   200                0.85 
+-8                  Unit non-response                                       2,059                8.76 
+-7                  Item legitimate skip/NA                                 2,113                8.99 
+TOTAL                                                                      23,503               99.99 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       S1INTGM109
+Position:   3759
+Length:     2
+Label:      S1 C04F 9th grader is taking Integrated Math I in fall 2009 term
+
+Description:
+What math course(s) are you currently taking this fall? 
+[What math course(s) were you taking in the fall (2009)?]
+(Check all that apply.)
+  Algebra I including IA and IB
+  Geometry
+  Algebra II
+  Trigonometry
+  Review or Remedial Math including Basic, Business, Consumer, Functional or General math
+  Integrated Math I
+  Statistics or Probability
+  Integrated Math II or above
+  Pre-algebra
+  Analytic Geometry
+  Other advanced math course such as pre-calculus or calculus
+  Other math course
+
+Note:  For interviews conducted prior to late-December 2009, this question appeared in the un-bracketed form above; for interviews conducted late-December 2009 or later, this question was displayed using the bracketed text above.
+
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+0                   No                                                     18,538               78.88 
+1                   Yes                                                       593                2.52 
+-9                  Missing                                                   200                0.85 
+-8                  Unit non-response                                       2,059                8.76 
+-7                  Item legitimate skip/NA                                 2,113                8.99 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       M1SEX
+Position:   12633
+Length:     2
+Label:      M1 A01 Math teacher's sex
+
+Description:
+[We would like to confirm your sex.]
+Are you male or female?
+  Male
+  Female
+
+Note:  Bracketed text above was used for telephone interviews only; it was not displayed in web self-administered interviews.
+
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+1                   Male                                                    6,732               28.64 
+2                   Female                                                 10,338               43.99 
+-8                  Unit non-response                                       6,433               27.37 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       M1HISP
+Position:   12635
+Length:     2
+Label:      M1 A02 Math teacher is Hispanic/Latino/Latina
+
+Description:
+Are you of Hispanic or [Latino/Latina] origin?
+  Yes
+  No
+
+
+Variable suppressed with -5 values on the public use file.
+
+                                                                        Frequency 
+Category            Label                                              Unweighted 
+------------------- ----------------------------------------- ------------------- 
+-5                  Data suppressed                                        23,503 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       M1WHITE
+Position:   12637
+Length:     2
+Label:      M1 A03A Math teacher is White
+
+Description:
+[In addition to learning about your Hispanic background, we would also like to know about your racial background.]
+Which of the following choices describe your race?  You may choose more than one.
+(Check all that apply.)
+  White
+  Black/African American
+  Asian 
+  Native Hawaiian or Other Pacific Islander
+  American Indian or Alaska Native
+
+Note:  The bracketed text above was used in cases where the respondent indicated they were of Hispanic/Latino origin.
+
+
+Variable suppressed with -5 values on the public use file.
+
+                                                                        Frequency 
+Category            Label                                              Unweighted 
+------------------- ----------------------------------------- ------------------- 
+-5                  Data suppressed                                        23,503 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       M1BLACK
+Position:   12639
+Length:     2
+Label:      M1 A03B Math teacher is Black
+
+Description:
+[In addition to learning about your Hispanic background, we would also like to know about your racial background.]
+Which of the following choices describe your race?  You may choose more than one.
+(Check all that apply.)
+  White
+  Black/African American
+  Asian 
+  Native Hawaiian or Other Pacific Islander
+  American Indian or Alaska Native
+
+Note:  The bracketed text above was used in cases where the respondent indicated they were of Hispanic/Latino origin.
+
+
+Variable suppressed with -5 values on the public use file.
+
+                                                                        Frequency 
+Category            Label                                              Unweighted 
+------------------- ----------------------------------------- ------------------- 
+-5                  Data suppressed                                        23,503 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       M1ASIAN
+Position:   12641
+Length:     2
+Label:      M1 A03C Math teacher is Asian
+
+Description:
+[In addition to learning about your Hispanic background, we would also like to know about your racial background.]
+Which of the following choices describe your race?  You may choose more than one.
+(Check all that apply.)
+  White
+  Black/African American
+  Asian 
+  Native Hawaiian or Other Pacific Islander
+  American Indian or Alaska Native
+
+Note:  The bracketed text above was used in cases where the respondent indicated they were of Hispanic/Latino origin.
+
+
+Variable suppressed with -5 values on the public use file.
+
+                                                                        Frequency 
+Category            Label                                              Unweighted 
+------------------- ----------------------------------------- ------------------- 
+-5                  Data suppressed                                        23,503 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       M1PACISLE
+Position:   12643
+Length:     2
+Label:      M1 A03D Math teacher is Native Hawaiian/Pacific Islander
+
+Description:
+[In addition to learning about your Hispanic background, we would also like to know about your racial background.]
+Which of the following choices describe your race?  You may choose more than one.
+(Check all that apply.)
+  White
+  Black/African American
+  Asian 
+  Native Hawaiian or Other Pacific Islander
+  American Indian or Alaska Native
+
+Note:  The bracketed text above was used in cases where the respondent indicated they were of Hispanic/Latino origin.
+
+
+Variable suppressed with -5 values on the public use file.
+
+                                                                        Frequency 
+Category            Label                                              Unweighted 
+------------------- ----------------------------------------- ------------------- 
+-5                  Data suppressed                                        23,503 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       M1AMINDIAN
+Position:   12645
+Length:     2
+Label:      M1 A03E Math teacher is American Indian/Alaskan Native
+
+Description:
+[In addition to learning about your Hispanic background, we would also like to know about your racial background.]
+Which of the following choices describe your race?  You may choose more than one.
+(Check all that apply.)
+  White
+  Black/African American
+  Asian 
+  Native Hawaiian or Other Pacific Islander
+  American Indian or Alaska Native
+
+Note:  The bracketed text above was used in cases where the respondent indicated they were of Hispanic/Latino origin.
+
+
+Variable suppressed with -5 values on the public use file.
+
+                                                                        Frequency 
+Category            Label                                              Unweighted 
+------------------- ----------------------------------------- ------------------- 
+-5                  Data suppressed                                        23,503 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       M1HIDEG
+Position:   12647
+Length:     2
+Label:      M1 A04 Math teacher's highest degree earned
+
+Description:
+What is the highest degree you have earned?
+  Associate's degree
+  Bachelor's degree
+  Master's degree
+  Educational Specialist diploma
+  Ph.D., M.D., law degree, or other high level professional degree
+  You do not have a degree
+
+
+"Associate's degree" recoded as "Bachelor's degree" on the public use file.
+
+                                                                        Frequency             Percent 
+Category            Label                                              Unweighted          Unweighted 
+------------------- ----------------------------------------- ------------------- ------------------- 
+3                   Bachelor's degree                                       8,444               35.93 
+4                   Master's degree                                         8,028               34.16 
+5                   Educational Specialist diploma                            376                1.60 
+6                   Ph.D./M.D./law degree/other prof degree                   219                0.93 
+-9                  Missing                                                     3                0.01 
+-8                  Unit non-response                                       6,433               27.37 
+TOTAL                                                                      23,503              100.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       M1HIDEGYR
+Position:   12649
+Length:     4
+Label:      M1 A05 Year math teacher earned highest degree
+
+Description:
+In what year did you receive your [highest degree earned]?
+
+Note:  Question wording was customized in the survey instrument such that the respondent's actual highest degree earned was used in place of 'highest degree earned'.
+
+
+Years less than 1972 recoded as 1972 and years greater than 2009 recoded as 2009 on the public use file.
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -9.00             2009.00             1443.70              896.69 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+
+
+File:       STUDENT
+Name:       A1FTMTCHRS
+Position:   13704
+Length:     3
+Label:      A1 C02A Number of full-time high school math teachers
+
+Description:
+For each of the following subject areas, please indicate the number of full-time teachers and part-time teachers that instruct high school students in [your school].
+Please give your best estimate. If a teacher works full-time in [your school], but divides his or her time between subject areas, consider that teacher as part-time in each subject area.
+  Math
+  Science
+  All other subjects
+
+Note: Question wording was customized in the survey instrument such that the respondent's school name appeared in place of 'your school'.
+
+
+Variable suppressed with -5 values on the public use file.
+
+                                                                           Mean       Std Deviation 
+Category                            Min                 Max          Unweighted          Unweighted 
+------------------- ------------------- ------------------- ------------------- ------------------- 
+Continuous                        -5.00               -5.00               -5.00                0.00 
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
